@@ -21,9 +21,9 @@ landgen <- function(area = 10000, prop1, prop2, n1, n2) {
   m = matrix(0, sqrt(area), sqrt(area))
 
   # Convert to raster
-  r = raster(m, xmn = 0, xmx = sqrt(area), ymn = 0, ymx = sqrt(area))
+  r = raster::raster(m, xmn = 0, xmx = sqrt(area), ymn = 0, ymx = sqrt(area))
 
   land <- r %>%
-    makeClass(n1, (prop1*area)/n1, val = 1) %>%
-    makeClass(n2, (prop2*area)/n2, val = 2)
+    landscapeR::makeClass(n1, (prop1*area)/n1, val = 1) %>%
+    landscapeR::makeClass(n2, (prop2*area)/n2, val = 2)
 }

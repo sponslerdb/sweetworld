@@ -11,10 +11,10 @@
 
 landtally <- function (x, criterion = NULL) {
 
-  criterion <- enquo(criterion)
+  criterion <- rlang::enquo(criterion)
 
   x %>%
-    group_by(time, !!criterion) %>%
-    summarize(total.nectar = sum(nectar)) %>%
-    mutate(date = as_date(time))
+    dplyr::group_by(time, !!criterion) %>%
+    dplyr::summarize(total.nectar = sum(nectar)) %>%
+    dplyr::mutate(date = lubridate::as_date(time))
 }

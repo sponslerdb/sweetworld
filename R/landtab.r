@@ -41,17 +41,16 @@ landtab <- function(x, comp0, comp1, comp2,
 
   x %>%
 
-    as.data.frame(xy = TRUE) %>% # retain spatial data in case we want to transform back to raster
-    rename(class = layer) %>%
-    mutate(class = factor(class)) %>%
-
-    mutate(plant = map(class, function(x) case_when(
+    raster::as.data.frame(xy = TRUE) %>% # retain spatial data in case we want to transform back to raster
+    dplyr::rename(class = layer) %>%
+    dplyr::mutate(class = factor(class)) %>%
+    dplyr::mutate(plant = purrr::map(class, function(x) dplyr::case_when(
       x == 0 ~ sample(comp0, size = 1, prob = prob0),
       x == 1 ~ sample(comp1, size = 1, prob = prob1),
       x == 2 ~ sample(comp2, size = 1, prob = prob2)
     ))) %>%
-    mutate(plant = unlist(plant)) %>%
-    mutate(index = row_number()) %>%
+    dplyr::mutate(plant = unlist(plant),
+                  index = dplyr::row_number()) %>%
     dplyr::select(index, x, y, class, plant) %>%
-    left_join(traitTab, by = c("plant" = plantNames))
+    dplyr::left_join(traitTab, by = c("plant" = plantNames))
 }

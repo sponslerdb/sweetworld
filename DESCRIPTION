@@ -1,11 +1,30 @@
 Package: floralcurves
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Simulate Landscape-Scale Floral Resource Dynamics
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Douglas B. Sponsler
+Maintainer: Douglas B. Sponsler <sponslerdb@gmail.com>
+Description: Generates hypothetical landscapes, populates landscape with 
+    simulated floral community, and models the temporal dynamics of floral
+    reward based on a floral trait table and a simple model of floral phenology
+License: CCA
 Encoding: UTF-8
 LazyData: true
+Imports:
+  dplyr,
+  lubridate,
+  ggplot2,
+  triangle,
+  landscapeR,
+  raster,
+  rlang,
+  purrr,
+  magrittr,
+  readr,
+  tibble,
+  tidyr
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 7.1.1

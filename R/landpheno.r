@@ -14,20 +14,23 @@ landpheno <- function(x, first = 0, last = 365) {
   time <- seq(first:last)
 
   x %>%
-    crossing(time) %>%
+    tidyr::crossing(time) %>%
 
     # Calculate triangular density function
-    mutate(phenology = pmap(list(time, bloom.start, bloom.end, bloom.peak), pheno_func)) %>%
+    dplyr::mutate(phenology = purrr::pmap(list(time, bloom.start, bloom.end,
+                                               bloom.peak), pheno)) %>%
 
     # Unlist the result' not sure why it produces a list
-    mutate(phenology = unlist(phenology)) %>%
+    dplyr::mutate(phenology = unlist(phenology)) %>%
 
     # Normalize density function so that max density = 1
-    mutate(phenology = if_else(phenology > 0, phenology/max(phenology), phenology)) %>%
+    dplyr::mutate(phenology = dplyr::if_else(phenology > 0,
+                                             phenology/max(phenology),
+                                             phenology)) %>%
 
     # Multiply peak density by normalized phenology
-    mutate(flower.density = flower.density.peak * phenology) %>%
+    dplyr::mutate(flower.density = flower.density.peak * phenology) %>%
 
     # Multiple nectar.per.flower by flower.density
-    mutate(nectar = nectar.per.flower*flower.density)
+    dplyr::mutate(nectar = nectar.per.flower*flower.density)
 }
