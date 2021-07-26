@@ -1,0 +1,17 @@
+---
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overview
+
+floralcurves is a package for analyzing and visualizing landscape-scale floral resource dynamics.  
+
+## Installation
+
+```{r, eval = FALSE}
+devtools::install_github("sponslerdb/floralcurves")
+```

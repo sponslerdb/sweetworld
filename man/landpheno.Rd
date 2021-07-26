@@ -23,6 +23,3 @@ Extend a floral landscape over a time series, apply a phenology function
 to each floral species, and generate a vector of nectar availability through
 time.
 }
-\examples{
-landtally(x, first = 40, last = 300)
-}

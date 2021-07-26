@@ -46,14 +46,3 @@ A data frame
 Tabulate a simulated landscape, populate patch classes with plants, and
 add floral data from a trait table.
 }
-\examples{
-landtab(land1,
-    comp0 = c("Cirsium vulgare", "Trifolium repens", "Taraxacum agg."),
-    comp1 = c("Brassica napus"),
-    comp2 = c("Acer pseudoplatanus", "Crataegus monogyna", "Salix cinerea"),
-    prob0 = c(1, 1, 1),
-    prob1 = c(1),
-    prob2 = c(0.8, 0.15, 0.05),
-    traitTab = baude_traits,
-    plantNames = "name.latin")
-}

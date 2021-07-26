@@ -6,8 +6,7 @@
 #' @param first start of time series, by default 0 (= Jan 1)
 #' @param last end of time series, by default 365 (= Dec 31)
 #' @return A data frame including a vector of nectar availability
-#' @examples
-#' landtally(x, first = 40, last = 300)
+#' @export
 
 landpheno <- function(x, first = 0, last = 365) {
 

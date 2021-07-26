@@ -6,6 +6,7 @@
 #' @param end time step of last bloom
 #' @param peak time step of peak bloom
 #' @return a vector of proportional floral density
+#' @export
 
 pheno <- function(x, start, end, peak) {
   triangle::dtriangle(x, start, end, peak)

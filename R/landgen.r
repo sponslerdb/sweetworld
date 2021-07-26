@@ -14,6 +14,7 @@
 #' @return A raster
 #' @examples
 #' landgen(10000, prop1 = 0.5, prop2 = 0.25, n1 = 10, n2 = 5)
+#' @export
 
 landgen <- function(area = 10000, prop1, prop2, n1, n2) {
 

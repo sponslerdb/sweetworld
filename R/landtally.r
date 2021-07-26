@@ -5,8 +5,7 @@
 #' @param criterion a categorical variable in the input data frame \code{x}
 #'     by which nectar availability will be parsed
 #' @return A data frame of summed nectar availability
-#' @examples
-#' landtally(x, flower.shape)
+#' @export
 
 
 landtally <- function (x, criterion = NULL) {

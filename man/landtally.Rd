@@ -20,6 +20,3 @@ A data frame of summed nectar availability
 Sum up nectar availability by various criteria (e.g. morphology, patch class,
 floral taxon).
 }
-\examples{
-landtally(x, flower.shape)
-}

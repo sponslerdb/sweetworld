@@ -2,7 +2,7 @@
 title: "Simulating landscape-scale floral resource dynamics with floralcurves"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{my-vignette}
+  %\VignetteIndexEntry{vignette1}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---

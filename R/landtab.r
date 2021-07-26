@@ -24,16 +24,7 @@
 #' @param plantNames the name of the column in the trait table that contains the
 #' plant names
 #' @return A data frame
-#' @examples
-#' landtab(land1,
-#'     comp0 = c("Cirsium vulgare", "Trifolium repens", "Taraxacum agg."),
-#'     comp1 = c("Brassica napus"),
-#'     comp2 = c("Acer pseudoplatanus", "Crataegus monogyna", "Salix cinerea"),
-#'     prob0 = c(1, 1, 1),
-#'     prob1 = c(1),
-#'     prob2 = c(0.8, 0.15, 0.05),
-#'     traitTab = baude_traits,
-#'     plantNames = "name.latin")
+#' @export
 
 landtab <- function(x, comp0, comp1, comp2,
                     prob0, prob1, prob2,
