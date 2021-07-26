@@ -1,0 +1,93 @@
+---
+title: "Comparing hay meadow and oilseed rape"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{my-vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(floralcurves)
+library(ggplot2)
+```
+
+# Generate landscape
+```{r}
+landscape00 <- landgen(prop1 = 0.3, prop2 = 0.01, n1 = 10, n2 = 10)
+
+raster::plot(landscape00)
+```
+
+# Tabulate landscape and add flowers
+```{r}
+meadow_tab <- landtab(landscape00, 
+                   
+                   # Hay meadow
+                   comp0 = c("Trifolium pratense", "Trifolium repens", "Vicia sativa"),
+                   
+                   # Forest
+                   comp1 = c("Acer pseudoplatanus", "Crataegus monogyna", "Salix cinerea"),
+                   
+                   # Developed
+                   comp2 = "null",
+                   
+                   prob0 = c(1, 1, 1),
+                   prob1 = c(0.8, 0.1, 0.1),
+                   prob2 = c(1),
+                   traitTab = baude_traits,
+                   plantNames = "name.latin")
+
+osr_tab <- landtab(landscape00, 
+                   
+                   # OSR fields
+                   comp0 = "Brassica napus",
+                   
+                   # Forest
+                   comp1 = c("Acer pseudoplatanus", "Crataegus monogyna", "Salix cinerea"),
+                   
+                   # Developed
+                   comp2 = "null",
+                   
+                   prob0 = c(1),
+                   prob1 = c(0.8, 0.1, 0.1),
+                   prob2 = c(1),
+                   traitTab = baude_traits,
+                   plantNames = "name.latin")
+```
+
+# Apply phenology
+```{r}
+meadow_pheno <- landpheno(meadow_tab) 
+
+osr_pheno <- landpheno(osr_tab)
+```
+
+# Tally nectar availability
+```{r}
+meadow_tally_agg <- landtally(meadow_pheno) %>%
+  dplyr::mutate(scenario = rep("meadow", dplyr::n()))
+
+osr_tally_agg <- landtally(osr_pheno) %>%
+  dplyr::mutate(scenario = rep("osr", dplyr::n()))
+
+meadow_osr_tally_agg <- dplyr::bind_rows(meadow_tally_agg, osr_tally_agg)
+
+```
+
+# Plot nectar availability
+```{r}
+# We could imagine a certain level below which floral resources become limiting; in reality, this line would be a curve 
+# that responds to florivore density.
+ggplot(meadow_osr_tally_agg, aes(date, total.nectar, color = scenario)) +
+  geom_line() +
+  geom_hline(yintercept = 1e9, linetype = "dashed") +
+  theme_light()
+```
