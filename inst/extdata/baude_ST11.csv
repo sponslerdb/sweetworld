@@ -1,0 +1,271 @@
+name.latin,name.common,family,flower.shape,breeding.system,life.span,dicliny,height,bloom.start,bloom.end,bloom.peak,bloom.days,flower.density.mean,flower.density.peak,nectar.per.flower
+Acer campestre,Field Maple,Sapindaceae,open,facultative autogamous,pluriennial,monoecious,tall,5/1/2013,6/30/2013,5/31/2013,60,250.56,NA,NA
+Acer platanoides,Norway Maple,Sapindaceae,open,allogamous,pluriennial,monoecious,tall,4/1/2013,5/31/2013,4/30/2013,60,NA,NA,NA
+Acer pseudoplatanus,Sycomore,Sapindaceae,open,facultative autogamous,pluriennial,monoecious,tall,4/1/2013,6/30/2013,5/16/2013,90,4555.68,7582.15,71.44
+Achillea millefolium,Yarrow,Asteraceae,hidden,allogamous,annual,monoecious,small,6/1/2013,8/31/2013,7/16/2013,91,140231.51,175374.06,7.56
+Achillea ptarmica,Sneezewort,Asteraceae,NA,allogamous,pluriennial,monoecious,small,7/1/2013,8/31/2013,7/31/2013,61,NA,NA,NA
+Aegopodium podagraria,Ground Elder,Apiaceae,open,facultative allogamous,pluriennial,monoecious,medium,5/1/2013,7/31/2013,6/16/2013,91,NA,NA,NA
+Aesculus hippocastanum,Horse chetnust,Sapindaceae,hidden,facultative allogamous,pluriennial,monoecious,tall,5/1/2013,6/30/2013,5/31/2013,60,3035.23,NA,449.28
+Aethusa cynapium,Fool's Parsley,Apiaceae,open,facultative autogamous,annual,hermaphroditic,medium,7/1/2013,8/31/2013,7/31/2013,61,14898.18,30789.58,6.94
+Agrimonia eupatoria,Agrimony,Rosaceae,pollen,facultative autogamous,pluriennial,hermaphroditic,small,6/1/2013,8/31/2013,7/16/2013,91,842.4,689.04,1.37
+Ajuga reptans,Bugle,Lamiaceae,bee,mixed,pluriennial,hermaphroditic,small,5/1/2013,7/31/2013,6/16/2013,91,2016,13248,155.06
+Allium cepa,Onion,Monocot,hidden,allogamous,pluriennial,hermaphroditic,medium,6/1/2013,7/31/2013,7/1/2013,60,25371.75,NA,206.75
+Allium schoenoprasum,Chives,Monocot,hidden,allogamous,pluriennial,hermaphroditic,small,6/1/2013,7/31/2013,7/1/2013,60,13248,15897.6,263.44
+Alnus glutinosa,Alder,Rosids,pollen,allogamous,pluriennial,monoecious,tall,2/1/2013,3/31/2013,3/1/2013,58,NA,NA,NA
+Anagallis arvensis,Scarlet Pimpernel,Primulaceae,pollen,facultative autogamous,annual,hermaphroditic,small,6/1/2013,8/31/2013,7/16/2013,91,775.25,1667.31,0
+Anchusa officinalis,Common Bugloss,Boraginaceae,bee,mixed,pluriennial,hermaphroditic,medium,6/1/2013,9/30/2013,7/31/2013,121,NA,NA,NA
+Anemone nemorosa,Wood Anemone,Ranunculacea,pollen,facultative allogamous,pluriennial,hermaphroditic,small,3/1/2013,5/31/2013,4/15/2013,91,35.02,28.81,0.79
+Angelica sylvestris,Angelica,Apiaceae,open,facultative allogamous,biennial.pluriennial,monoecious,medium,7/1/2013,9/30/2013,8/15/2013,91,13012.79,13189.19,15.66
+Anthriscus sylvestris,Cow Parsley,Apiaceae,open,facultative allogamous,pluriennial,monoecious,medium,4/1/2013,6/30/2013,5/16/2013,90,26245.96,29526.71,11.33
+Arabidopsis thaliana,Thale Cress,Brassicaceae,part hidden,autogamous,annual,hermaphroditic,small,4/1/2013,5/31/2013,4/30/2013,60,NA,NA,NA
+Arctium agg.,Common Burdock,Asteraceae,hidden,facultative autogamous,pluriennial,hermaphroditic,medium,7/1/2013,9/30/2013,8/15/2013,91,1496.94,1602.17,71.76
+Arenaria serpyllifolia,Thyme-leaved Sandwort,Caryophyllaceae,part hidden,autogamous,annual.biennial,dioecious,small,6/1/2013,8/31/2013,7/16/2013,91,NA,NA,NA
+Armeria maritima,Thrift,Core eudicot,hidden,allogamous,pluriennial,hermaphroditic,small,4/1/2013,10/31/2013,6/15/2013,213,1427.66,1459.38,63.96
+Asperula cynanchica,Squinancywort,Rubiaceae,hidden,facultative autogamous,pluriennial,hermaphroditic,small,6/1/2013,7/31/2013,7/1/2013,60,NA,NA,NA
+Aster tripolium,Sea Aster,Asteraceae,hidden,NA,pluriennial,monoecious,medium,7/1/2013,10/31/2013,8/31/2013,122,5644.8,9564.8,29.01
+Atriplex patula,Common Orache,Core eudicot,pollen,facultative allogamous,annual,monoecious,medium,6/1/2013,10/31/2013,8/16/2013,152,1053.82,1380.87,0.1
+Atriplex portulacoides,Sea Purslane,Core eudicot,NA,mixed,pluriennial,monoecious,medium,7/1/2013,10/31/2013,8/31/2013,122,NA,NA,NA
+Bellis perennis,Daisy,Asteraceae,hidden,autogamous,pluriennial,monoecious,small,1/1/2013,12/31/2013,4/15/2013,364,28851.84,68831.22,0.84
+Brassica napus,Rape,Brassicaceae,part hidden,mixed,annual.biennial,hermaphroditic,medium,4/1/2013,6/30/2013,5/16/2013,90,1240.86,1509.15,394.79
+Brassica oleracea (cultivated),Cabbage,Brassicaceae,part hidden,allogamous,biennial,hermaphroditic,medium,5/1/2013,8/31/2013,7/1/2013,122,NA,NA,NA
+Brassica rapa,Turnip,Brassicaceae,part hidden,allogamous,annual.biennial,hermaphroditic,medium,5/1/2013,8/31/2013,7/1/2013,122,620.91,2351.5,165.4
+Buddleja davidii,Buddlia,Asterids,bee,allogamous,pluriennial,hermaphroditic,medium,6/1/2013,10/31/2013,8/16/2013,152,17768.42,29233.02,42.45
+Calluna vulgaris,Heather,Ericaceae,hidden,facultative allogamous,pluriennial,hermaphroditic,small,7/1/2013,9/30/2013,8/15/2013,91,5815.06,8343.45,31.76
+Caltha palustris,Marsh Marigold,Ranunculacea,part hidden,allogamous,pluriennial,hermaphroditic,small,3/1/2013,7/31/2013,5/15/2013,152,125.28,152.75,4.37
+Calystegia sepium,Hedge Bindweed,Asterids,hidden,mixed,pluriennial,hermaphroditic,small,7/1/2013,9/30/2013,8/15/2013,91,33.29,161.85,1800.78
+Campanula glomerata,Clustered Bellflower,Asterids,bee,allogamous,pluriennial,hermaphroditic,small,5/1/2013,9/30/2013,7/16/2013,152,NA,NA,NA
+Campanula patula,Spreading Bellflower,Asterids,bee,allogamous,biennial,hermaphroditic,small,7/1/2013,9/30/2013,8/15/2013,91,NA,NA,NA
+Campanula rotundifolia,Harebell,Asterids,bee,allogamous,pluriennial,hermaphroditic,small,7/1/2013,9/30/2013,8/15/2013,91,329.14,680.05,290.18
+Capsella bursa-pastoris,Shepherd's Purse,Brassicaceae,part hidden,autogamous,annual.biennial,hermaphroditic,small,1/1/2013,12/31/2013,7/1/2013,364,1681.2,2024.14,0.39
+Cardamine hirsuta/flexuosa,Hairy Bittercress,Brassicaceae,part hidden,mixed,annual.biennial,hermaphroditic,small,4/1/2013,8/31/2013,6/16/2013,152,1850.57,4168.28,4.5
+Cardamine pratensis,Cuckoo Flower,Brassicaceae,hidden,allogamous,pluriennial,hermaphroditic,small,4/1/2013,7/31/2013,5/31/2013,121,957.6,1440.45,58.68
+Castanea sativa,Sweet Chestnut,Rosids,pollen,allogamous,pluriennial,monoecious,tall,7/1/2013,7/31/2013,7/16/2013,30,37166,44179.5,2.15
+Centaurea nigra,Black Knapweed,Asteraceae,hidden,allogamous,pluriennial,hermaphroditic,small,6/1/2013,9/30/2013,7/31/2013,121,4390.49,21340.57,198.99
+Centaurea scabiosa,Greater Knapweed,Asteraceae,hidden,allogamous,pluriennial,hermaphroditic,small,7/1/2013,9/30/2013,8/15/2013,91,NA,NA,NA
+Cerastium fontanum,Common Mouse-ear,Caryophyllaceae,part hidden,autogamous,pluriennial,hermaphroditic,small,4/1/2013,9/30/2013,6/30/2013,182,660.48,949.28,26.93
+Cerastium glomeratum,Sticky Mouse-ear,Caryophyllaceae,part hidden,autogamous,annual,hermaphroditic,small,4/1/2013,9/30/2013,6/30/2013,182,NA,NA,NA
+Chamerion angustifolium,Rosebay Willowherb,Onagraceae,NA,facultative allogamous,pluriennial,hermaphroditic,medium,7/1/2013,9/30/2013,8/15/2013,91,973.48,782,941.59
+Chrysosplenium oppositifolium,Opposite-leaved Golden Saxifrage,Core eudicot,open,mixed,pluriennial,monoecious,small,4/1/2013,7/31/2013,5/31/2013,121,NA,NA,NA
+Circaea lutetiana,Enchanter's Nightshade,Onagraceae,open,mixed,pluriennial,hermaphroditic,small,6/1/2013,8/31/2013,7/16/2013,91,804.77,1104.16,6.52
+Cirsium acaule,Dwarf Thistle,Asteraceae,hidden,mixed,pluriennial,dioecious,small,6/1/2013,9/30/2013,7/31/2013,121,5371.2,13105.73,66.45
+Cirsium arvense,Creeping Thistle,Asteraceae,hidden,allogamous,pluriennial,dioecious,small,7/1/2013,9/30/2013,8/15/2013,91,5622.03,2306.96,76.22
+Cirsium palustre,Marsh Thistle,Asteraceae,hidden,mixed,biennial.pluriennial,dioecious,medium,7/1/2013,9/30/2013,7/15/2013,91,27318.72,48121.39,216.18
+Cirsium vulgare,Spear Thistle,Asteraceae,hidden,mixed,biennial,hermaphroditic,medium,7/1/2013,10/31/2013,8/31/2013,122,16538.12,42034.39,76.51
+Clematis vitalba,Traveller's Joy,Ranunculacea,pollen,facultative autogamous,pluriennial,hermaphroditic,tall,7/1/2013,8/31/2013,7/31/2013,61,327.21,388.56,149.73
+Conopodium majus,Pignut,Apiaceae,open,facultative allogamous,pluriennial,hermaphroditic,small,5/1/2013,6/30/2013,5/31/2013,60,NA,NA,NA
+Convolvulus arvensis,Field Bindweed,Asterids,hidden,allogamous,annual,hermaphroditic,small,6/1/2013,9/30/2013,7/31/2013,121,252.86,329.6,351.82
+Cornus sanguinea,Dogwood,Asterids,open,NA,pluriennial,hermaphroditic,medium,6/1/2013,7/31/2013,7/1/2013,60,218.83,273.54,68.79
+Corylus avellana,Hazel,Rosids,pollen,allogamous,pluriennial,monoecious,medium,1/1/2013,4/30/2013,3/1/2013,119,5255.88,NA,NA
+Crataegus monogyna,Hawthorn,Rosaceae,hidden,facultative allogamous,pluriennial,hermaphroditic,tall,5/1/2013,6/30/2013,5/31/2013,60,10387.69,19003.14,102.47
+Crepis capillaris,Smooth Hawksbeard,Asteraceae,hidden,allogamous,annual,hermaphroditic,small,6/1/2013,9/30/2013,7/31/2013,121,9863.68,10963.67,9.02
+Cruciata laevipes,Crosswort,Rubiaceae,open,NA,pluriennial,monoecious,small,4/1/2013,7/31/2013,5/31/2013,121,NA,NA,NA
+Cultivated bean,Cultivated bean,Fabaceae,bee,facultative allogamous,annual,hermaphroditic,medium,3/1/2013,7/31/2013,5/15/2013,152,518.63,1274.49,53.44
+Cynoglossum officinale,Hound's-tongue,Boraginaceae,hidden,facultative allogamous,biennial.pluriennial,hermaphroditic,small,5/1/2013,8/31/2013,7/1/2013,122,NA,NA,NA
+Cytisus scoparius,Broom,Fabaceae,bee,allogamous,pluriennial,hermaphroditic,medium,5/1/2013,6/30/2013,5/31/2013,60,3883.28,7281.14,33.96
+Dactylorhiza maculata,Heath Spotted Orchid,Monocot,hidden,facultative allogamous,pluriennial,hermaphroditic,small,5/1/2013,8/31/2013,7/1/2013,122,NA,NA,NA
+Daucus carota,Wild Carrot,Apiaceae,open,facultative allogamous,biennial.pluriennial,monoecious,medium,6/1/2013,8/31/2013,7/16/2013,91,53892.96,63804.99,7.35
+Digitalis purpurea,Foxglove,Plantaginaceae,bee,allogamous,biennial,hermaphroditic,medium,6/1/2013,9/30/2013,7/31/2013,121,194.94,318.67,1273.88
+Doronicum pardalianches,Leopard's-bane,Asteraceae,hidden,NA,pluriennial,monoecious,small,5/1/2013,7/31/2013,6/16/2013,91,NA,NA,NA
+Drosera rotundifolia,Great Sundew,Core eudicot,part hidden,autogamous,pluriennial,hermaphroditic,small,5/1/2013,10/31/2013,8/1/2013,183,NA,NA,NA
+Echium vulgare,Viper's Bugloss,Boraginaceae,bee,facultative allogamous,biennial.pluriennial,hermaphroditic,small,6/1/2013,9/30/2013,7/31/2013,121,NA,NA,NA
+Empetrum nigrum,Crowberry,Ericaceae,pollen,allogamous,pluriennial,dioecious,small,3/1/2013,5/31/2013,4/15/2013,91,NA,NA,NA
+Epilobium hirsutum,Great Willowherb,Onagraceae,hidden,facultative allogamous,pluriennial,hermaphroditic,medium,7/1/2013,8/31/2013,7/31/2013,61,138.01,513.64,323.52
+Epilobium montanum,Broad-leaved Willowherb,Onagraceae,hidden,autogamous,pluriennial,hermaphroditic,small,6/1/2013,8/31/2013,7/16/2013,91,250.74,559.5,66.96
+Epilobium obscurum,Short-fruited Willowherb,Onagraceae,hidden,autogamous,pluriennial,hermaphroditic,small,7/1/2013,8/31/2013,7/31/2013,61,NA,NA,NA
+Epilobium palustre,Marsh Willowherb,Onagraceae,hidden,facultative autogamous,pluriennial,hermaphroditic,small,7/1/2013,8/31/2013,7/31/2013,61,NA,NA,NA
+Epilobium parviflorum,Hoary Willowherb,Onagraceae,hidden,facultative autogamous,pluriennial,hermaphroditic,small,7/1/2013,8/31/2013,7/31/2013,61,396,NA,NA
+Epilobium tetragonum,Square-stemmed Willowherb,Onagraceae,hidden,autogamous,pluriennial,hermaphroditic,small,7/1/2013,8/31/2013,7/31/2013,61,905.04,1219.84,20.6
+Erica cinerea,Bell Heather,Ericaceae,bee,autogamous,pluriennial,hermaphroditic,small,5/1/2013,11/30/2013,7/15/2013,213,25990.67,29798.51,80.63
+Erica tetralix,Cross-leaved Heath,Ericaceae,bee,facultative autogamous,pluriennial,hermaphroditic,small,6/1/2013,9/30/2013,7/15/2013,121,3605.47,4811.96,70.3
+Eupatorium cannabinum,Hemp agrimony,Asteraceae,hidden,allogamous,pluriennial,hermaphroditic,medium,7/1/2013,9/30/2013,8/15/2013,91,40826.53,73875.56,17.02
+Euphrasia officinalis agg.,Eyebright,Orobranchaceae,hidden,facultative autogamous,annual,hermaphroditic,small,6/1/2013,9/30/2013,7/31/2013,121,2364,5834.46,17.83
+Fagopyrum esculentum,Buckwheat,Polygonaceae,part hidden,allogamous,annual,hermaphroditic,small,7/1/2013,9/30/2013,8/15/2013,91,NA,NA,NA
+Fallopia convolvulus,Black Bindweed,Polygonaceae,hidden,autogamous,annual,hermaphroditic,medium,7/1/2013,10/31/2013,8/31/2013,122,2910.4,NA,65.08
+Fallopia japonica,Japense Knotweed,Polygonaceae,hidden,allogamous,pluriennial,dioecious,medium,8/1/2013,9/30/2013,8/31/2013,60,5585.41,9309.01,57.15
+Filipendula ulmaria,Meadowsweet,Rosaceae,pollen,mixed,pluriennial,hermaphroditic,medium,6/1/2013,9/30/2013,7/31/2013,121,2502.54,3195.51,0
+Galeopsis tetrahit agg.,Common Hemp-nettle,Lamiaceae,bee,facultative autogamous,annual,hermaphroditic,medium,7/1/2013,9/30/2013,8/15/2013,91,NA,NA,NA
+Galium aparine,Common Cleavers,Rubiaceae,open,facultative autogamous,annual,hermaphroditic,medium,6/1/2013,8/31/2013,7/16/2013,91,176.5,1134.66,9.48
+Galium mollugo,Hedge Bedstraw,Rubiaceae,open,mixed,pluriennial,hermaphroditic,medium,6/1/2013,9/30/2013,7/31/2013,121,148.04,158.62,3.58
+Galium palustre,Marsh Bedstraw,Rubiaceae,open,mixed,pluriennial,hermaphroditic,medium,6/1/2013,7/31/2013,7/1/2013,60,NA,NA,NA
+Galium saxatile,Heath Bedstraw,Rubiaceae,open,allogamous,pluriennial,hermaphroditic,small,6/1/2013,8/31/2013,7/16/2013,91,1637.49,1711.92,0.94
+Galium verum,Lady's Bedstraw,Rubiaceae,open,mixed,pluriennial,hermaphroditic,medium,7/1/2013,8/31/2013,7/31/2013,61,103219.99,574251.49,0.66
+Geranium dissectum,Cut-leaved Cranesbill,Geraniaceae,bee,facultative autogamous,annual,hermaphroditic,small,5/1/2013,8/31/2013,7/1/2013,122,226.45,347.86,2.69
+Geranium molle,Dovesfoot Cranesbill,Geraniaceae,hidden,facultative autogamous,annual.biennial,hermaphroditic,small,4/1/2013,9/30/2013,6/30/2013,182,654.22,1143.12,20.55
+Geranium pratense,Meadow Crane's-bill,Geraniaceae,hidden,allogamous,pluriennial,dioecious,small,6/1/2013,9/30/2013,7/31/2013,121,162.51,174.12,16.43
+Geranium robertianum,Herb Robert,Geraniaceae,hidden,facultative autogamous,annual,dioecious,small,5/1/2013,9/30/2013,7/16/2013,152,97.39,161.37,97.79
+Geum rivale,Water avens,Rosaceae,hidden,facultative allogamous,pluriennial,hermaphroditic,small,5/1/2013,9/30/2013,7/16/2013,152,NA,NA,NA
+Geum urbanum,Herb Bennet,Rosaceae,part hidden,facultative autogamous,pluriennial,hermaphroditic,small,6/1/2013,8/31/2013,7/16/2013,91,58.37,142.65,29.8
+Gladiolus sp.,Wild Gladiolus,Monocot,bee,allogamous,pluriennial,hermaphroditic,small,6/1/2013,8/31/2013,7/15/2013,91,42.18,NA,3142.49
+Glaux maritima,Sea Milkwort,Primulaceae,hidden,facultative autogamous,pluriennial,hermaphroditic,small,6/1/2013,8/31/2013,7/16/2013,91,NA,NA,NA
+Glechoma hederacea,Ground Ivy,Lamiaceae,bee,facultative allogamous,pluriennial,dioecious,small,3/1/2013,5/31/2013,4/15/2013,91,734.26,1023.47,94.37
+Hedera helix,Ivy,Asterids,open,mixed,pluriennial,hermaphroditic,small,8/1/2013,11/30/2013,10/1/2013,121,1326.04,1912.1,609.82
+Helianthemum nummularium,Common Rock-rose,Rosids,pollen,NA,pluriennial,hermaphroditic,small,5/1/2013,9/30/2013,5/15/2013,152,42.36,NA,0
+Heracleum sphondylium,Hogweed,Apiaceae,open,facultative allogamous,pluriennial,monoecious,medium,6/1/2013,9/30/2013,7/31/2013,121,10323.56,25374.18,98.17
+Hieracium 'indeterminate' ,Hawkeed,Asteraceae,hidden,NA,pluriennial,hermaphroditic,small,6/1/2013,8/31/2013,7/16/2013,91,NA,NA,NA
+Honckenya peploides,Sea sandwort,Caryophyllaceae,hidden,facultative autogamous,pluriennial,hermaphroditic,small,5/1/2013,8/31/2013,7/1/2013,122,NA,NA,NA
+Hyacinthoides non-scripta,Bluebell,Monocot,bee,allogamous,pluriennial,hermaphroditic,small,4/1/2013,6/30/2013,5/15/2013,90,281.83,611.91,113.44
+Hydrocotyle vulgaris,Marsh Pennywort,Apiaceae,open,autogamous,pluriennial,hermaphroditic,small,6/1/2013,8/31/2013,7/16/2013,91,NA,NA,NA
+Hypericum pulchrum,Slender St. John's Wort,Rosids,pollen,mixed,pluriennial,hermaphroditic,small,6/1/2013,8/31/2013,7/16/2013,91,5356.8,6659.81,0
+Hypochaeris radicata,Common Cat's-ear,Asteraceae,hidden,allogamous,pluriennial,hermaphroditic,small,6/1/2013,8/31/2013,6/15/2013,91,9770.48,15394.08,14.46
+Ilex aquifolium,Holly,Asterids,open,allogamous,pluriennial,dioecious,tall,5/1/2013,8/31/2013,5/15/2013,122,NA,NA,NA
+Impatiens glandulifera,Himalayan Balsam,Asterids,bee,facultative allogamous,annual,hermaphroditic,medium,7/1/2013,10/31/2013,8/31/2013,122,58.21,129.86,7667.84
+Iris pseudacorus,Yellow Iris,Monocot,bee,allogamous,pluriennial,hermaphroditic,medium,5/1/2013,11/30/2013,8/15/2013,213,12.1,34.27,3412.53
+Knautia arvensis,Field Scabious,Asterids,hidden,facultative allogamous,pluriennial,dioecious,medium,7/1/2013,9/30/2013,8/15/2013,91,7904.12,12714.1,146.31
+Lamiastrum galeobdolon,Yellow Archangel,Lamiaceae,bee,mixed,pluriennial,hermaphroditic,small,4/1/2013,5/31/2013,4/30/2013,60,183.19,1178.6,440.16
+Lamium album,White Dead-nettle,Lamiaceae,bee,mixed,pluriennial,hermaphroditic,small,5/1/2013,12/31/2013,5/15/2013,244,599.41,940.33,1043.99
+Lamium maculatum,Spotted Dead Nettle,Lamiaceae,bee,mixed,pluriennial,hermaphroditic,small,6/1/2013,10/31/2013,8/16/2013,152,NA,NA,NA
+Lamium purpureum,Red Dead-nettle,Lamiaceae,bee,mixed,annual,hermaphroditic,small,3/1/2013,10/31/2013,4/15/2013,244,927.77,1049.73,30.66
+Lapsana communis,Nipplewort,Asteraceae,hidden,facultative autogamous,annual,hermaphroditic,medium,6/1/2013,9/30/2013,7/31/2013,121,7035.08,19988.95,0.26
+Lathyrus latifolius,Everlasting Pea,Fabaceae,bee,facultative allogamous,pluriennial,hermaphroditic,medium,6/1/2013,9/30/2013,7/31/2013,121,587.45,853.2,1387.82
+Lathyrus pratensis,Meadow Vetchling,Fabaceae,bee,facultative allogamous,pluriennial,hermaphroditic,medium,5/1/2013,8/31/2013,7/1/2013,122,232.22,320.02,952.69
+Leontodon autumnalis,Autumn Hawkbit,Asteraceae,hidden,allogamous,pluriennial,hermaphroditic,small,6/1/2013,10/31/2013,8/16/2013,152,25976.08,37581.14,13.7
+Leontodon hispidus,Rough Hawkbit,Asteraceae,hidden,allogamous,pluriennial,hermaphroditic,small,6/1/2013,9/30/2013,7/31/2013,121,3600.17,10286.19,6.15
+Leontodon saxatilis,Lesser Hawkbit,Asteraceae,hidden,allogamous,pluriennial,hermaphroditic,small,6/1/2013,9/30/2013,7/31/2013,121,NA,NA,NA
+Leucanthemum vulgare,Ox-eye Daisy,Asteraceae,hidden,mixed,pluriennial,monoecious,medium,6/1/2013,8/31/2013,7/16/2013,91,66558.72,164219.12,15.81
+Ligustrum vulgare,Wild Privet,Asterids,hidden,NA,pluriennial,hermaphroditic,medium,6/1/2013,7/31/2013,7/1/2013,60,10985.35,13731.69,66.75
+Linaria vulgaris,Common Toadflax,Plantaginaceae,bee,allogamous,pluriennial,hermaphroditic,small,7/1/2013,10/31/2013,8/31/2013,122,1224,1964.84,543.89
+Linum usitatissimum,Flax,Rosids,hidden,mixed,annual.biennial,hermaphroditic,small,6/1/2013,10/31/2013,8/16/2013,152,NA,NA,NA
+Lonicera periclymenum,Honeysuckle,Asterids,bee,mixed,pluriennial,hermaphroditic,medium,6/1/2013,9/30/2013,7/31/2013,121,57.91,85.8,1726.84
+Lotus corniculatus,Bird's-foot Trefoil,Fabaceae,bee,allogamous,pluriennial,hermaphroditic,small,5/1/2013,10/31/2013,5/15/2013,183,331.59,399.4,61.82
+Lotus pedunculatus,Greater Bird's-foot Trefoil,Fabaceae,bee,allogamous,pluriennial,hermaphroditic,small,6/1/2013,8/31/2013,7/16/2013,91,376.59,524.95,35.36
+Lupinus polyphyllus,Garden Lupine,Fabaceae,bee,facultative allogamous,pluriennial,hermaphroditic,medium,5/1/2013,7/31/2013,6/16/2013,91,NA,NA,NA
+Lychnis flos-cuculi,Ragged Robin,Caryophyllaceae,bee,facultative allogamous,pluriennial,hermaphroditic,small,5/1/2013,6/30/2013,5/31/2013,60,NA,NA,NA
+Lycopus europaeus,Gipsywort,Lamiaceae,hidden,facultative allogamous,pluriennial,monoecious,medium,6/1/2013,9/30/2013,7/31/2013,121,NA,NA,NA
+Lysimachia nemorum,Yellow Pimpernel,Primulaceae,pollen,allogamous,pluriennial,hermaphroditic,small,5/1/2013,9/30/2013,7/16/2013,152,61.56,119.96,7.18
+Lythrum salicaria,Purple Loosestrife,Rosids,hidden,allogamous,pluriennial,hermaphroditic,medium,6/1/2013,8/31/2013,7/16/2013,91,1678.19,3066.67,136.72
+Malus domestica,Cultivated Apple,Rosaceae,part hidden,allogamous,pluriennial,hermaphroditic,tall,4/1/2013,5/31/2013,4/30/2013,60,185.26,239.58,110.21
+Matricaria discoidea,Pineapple Mayweed,Asteraceae,hidden,facultative autogamous,annual,hermaphroditic,small,6/1/2013,7/31/2013,7/1/2013,60,399225.6,605097.93,0.28
+Matricaria recutita,Scented Mayweed,Asteraceae,bee,allogamous,annual,hermaphroditic,small,6/1/2013,8/31/2013,7/16/2013,91,161378.74,213589.51,0.6
+Medicago lupulina,Black Medick,Fabaceae,bee,facultative autogamous,annual.biennial,hermaphroditic,small,4/1/2013,8/31/2013,6/16/2013,152,16190.06,17089.5,1.63
+Medicago sativa,Lucerne,Fabaceae,bee,facultative autogamous,pluriennial,hermaphroditic,small,6/1/2013,7/31/2013,7/1/2013,60,2498.68,2883.09,146.14
+Melilotus officinalis,Ribbed Melilot,Fabaceae,bee,allogamous,annual.biennial,hermaphroditic,medium,7/1/2013,9/30/2013,8/15/2013,91,8575.52,11693.89,20.17
+Mentha aquatica,Water Mint,Lamiaceae,hidden,facultative allogamous,pluriennial,dioecious,small,7/1/2013,10/31/2013,8/31/2013,122,NA,NA,NA
+Mercurialis perennis,Dog's Mercury,Rosids,pollen,allogamous,pluriennial,dioecious,small,1/1/2013,5/31/2013,3/15/2013,150,661.99,1192.35,0
+Montia fontana,Blinks,Core eudicot,open,autogamous,annual,hermaphroditic,small,5/1/2013,10/31/2013,8/1/2013,183,NA,NA,NA
+Myosotis arvensis,Field Forget-me-not,Boraginaceae,hidden,facultative autogamous,annual.biennial,hermaphroditic,small,4/1/2013,9/30/2013,6/30/2013,182,3166.87,22490.84,23.36
+Narthecium ossifragum,Bog Asphodel,Monocot,pollen,facultative autogamous,pluriennial,hermaphroditic,small,7/1/2013,9/30/2013,8/15/2013,91,600,862.5,0
+Odontites vernus,Red Bartsia,Asterids,bee,mixed,annual,hermaphroditic,small,7/1/2013,8/31/2013,7/31/2013,61,1795.2,NA,10.84
+Oenanthe crocata,Hemlock Water Dropwort,Apiaceae,NA,NA,pluriennial,dioecious,medium,6/1/2013,7/31/2013,7/1/2013,60,NA,NA,NA
+Onobrychis viciifolia,Sainfoin,Fabaceae,bee,allogamous,pluriennial,hermaphroditic,small,7/1/2013,8/31/2013,7/31/2013,61,NA,NA,NA
+Origanum vulgare,Marjoram,Lamiaceae,hidden,facultative allogamous,pluriennial,dioecious,small,7/1/2013,9/30/2013,8/15/2013,91,16183.86,39756.51,49.84
+Oxalis acetosella,Wood-sorrel,Rosids,hidden,facultative autogamous,pluriennial,hermaphroditic,small,4/1/2013,8/31/2013,6/16/2013,152,87.45,318.24,15.53
+Papaver dubium,Long-headed Poppy,Papaveraceae,pollen,mixed,annual,hermaphroditic,small,5/1/2013,7/31/2013,6/16/2013,91,NA,NA,NA
+Papaver rhoeas,Common Poppy,Papaveraceae,pollen,allogamous,annual,hermaphroditic,small,6/1/2013,10/31/2013,6/15/2013,152,53.87,114.54,5.35
+Papaver somniferum,Opium poppy,Papaveraceae,pollen,allogamous,annual,hermaphroditic,medium,7/1/2013,8/31/2013,7/31/2013,61,NA,NA,NA
+Pastinaca sativa,Wild Parsnip,Apiaceae,open,mixed,annual,monoecious,medium,7/1/2013,8/31/2013,7/31/2013,61,561.47,NA,0.13
+Pedicularis sylvatica,Lousewort,Orobranchaceae,bee,facultative allogamous,pluriennial,hermaphroditic,small,4/1/2013,7/31/2013,5/31/2013,121,NA,NA,NA
+Persicaria lapathifolium,Pale persicaria,Polygonaceae,hidden,autogamous,annual,hermaphroditic,medium,6/1/2013,10/31/2013,8/16/2013,152,NA,NA,NA
+Persicaria maculosa,Redshank,Polygonaceae,hidden,autogamous,annual,hermaphroditic,small,5/1/2013,10/31/2013,8/1/2013,183,795.7,916.57,20.34
+Petasites hybridus,Butterbur,Asteraceae,hidden,allogamous,pluriennial,dioecious,small,3/1/2013,5/31/2013,4/15/2013,91,NA,NA,NA
+Picris echioides,Bristly Ox-tongue,Asteraceae,hidden,allogamous,annual,hermaphroditic,small,6/1/2013,10/31/2013,8/16/2013,152,28302.37,23028.11,6.48
+Pilosella officinarum,Mouse-ear Hawkweed,Asteraceae,NA,allogamous,pluriennial,hermaphroditic,small,5/1/2013,9/30/2013,6/15/2013,152,928.78,1274.09,7.08
+Pinguicula vulgaris,Common Butterwort,Asterids,bee,facultative autogamous,pluriennial,hermaphroditic,small,5/1/2013,7/31/2013,6/16/2013,91,NA,NA,NA
+Pisum sativum,Garden pea,Fabaceae,bee,autogamous,annual,hermaphroditic,medium,5/1/2013,8/31/2013,7/1/2013,122,74.14,77.97,20.2
+Plantago coronopus,Buckshorn Plantain,Plantaginaceae,pollen,facultative allogamous,pluriennial,hermaphroditic,small,4/1/2013,9/30/2013,6/15/2013,182,3058.04,5364.1,0
+Plantago lanceolata,Ribwort Plantain,Plantaginaceae,pollen,allogamous,pluriennial,dioecious,small,4/1/2013,10/31/2013,6/15/2013,213,3445.48,3665.92,NA
+Plantago major,Greater Plantain,Plantaginaceae,pollen,facultative allogamous,pluriennial,hermaphroditic,small,5/1/2013,9/30/2013,6/15/2013,152,5898.37,9200.17,0
+Plantago maritima,Sea Plantain,Plantaginaceae,pollen,allogamous,pluriennial,dioecious,small,6/1/2013,8/31/2013,7/16/2013,91,NA,NA,NA
+Plantago media,Hoary Plantain,Plantaginaceae,pollen,allogamous,pluriennial,hermaphroditic,small,5/1/2013,8/31/2013,7/1/2013,122,NA,NA,NA
+Polygala vulgaris/serpyllifolia,Heath Milkwort,Rosids,hidden,facultative autogamous,pluriennial,hermaphroditic,small,5/1/2013,8/31/2013,7/1/2013,122,NA,NA,NA
+Polygonum aviculare agg.,Knotgrass,Polygonaceae,hidden,autogamous,annual,hermaphroditic,medium,7/1/2013,10/31/2013,8/31/2013,122,855.77,1134.83,3.05
+Populus tremula,Aspen,Salicaceae,pollen,allogamous,pluriennial,dioecious,tall,3/1/2013,3/31/2013,3/16/2013,30,NA,NA,NA
+Potentilla anserina,Silverweed,Rosaceae,part hidden,allogamous,pluriennial,hermaphroditic,small,6/1/2013,8/31/2013,7/16/2013,91,14.34,34.07,5.62
+Potentilla erecta,Tormentil,Rosaceae,part hidden,allogamous,pluriennial,hermaphroditic,small,6/1/2013,9/30/2013,7/31/2013,121,468.96,2325.7,33.28
+Potentilla reptans,Creeping Cinquefoil,Rosaceae,part hidden,NA,pluriennial,hermaphroditic,medium,6/1/2013,9/30/2013,7/31/2013,121,288,1016.47,30.85
+Potentilla sterilis,Barren Strawberry,Rosaceae,part hidden,mixed,pluriennial,hermaphroditic,small,2/1/2013,3/31/2013,3/1/2013,58,NA,NA,NA
+Primula veris,Cowslip,Primulaceae,bee,allogamous,pluriennial,hermaphroditic,small,4/1/2013,6/30/2013,5/16/2013,90,NA,NA,NA
+Primula vulgaris,Primrose,Primulaceae,bee,allogamous,pluriennial,hermaphroditic,small,12/1/2012,5/31/2013,3/1/2013,181,246.98,472.23,171.91
+Prunella vulgaris,Self-heal,Lamiaceae,bee,mixed,pluriennial,monoecious,small,6/1/2013,9/30/2013,7/31/2013,121,1551.7,3866.52,138.62
+Prunus avium,Wild Cherry or Gean,Rosaceae,part hidden,allogamous,pluriennial,hermaphroditic,small,4/1/2013,5/31/2013,4/30/2013,60,1476.44,1705.24,384.48
+Prunus domestica,Wild Plum,Rosaceae,part hidden,allogamous,pluriennial,hermaphroditic,medium,4/1/2013,5/31/2013,4/30/2013,60,NA,NA,NA
+Prunus spinosa,Blackthorn,Rosaceae,part hidden,allogamous,pluriennial,hermaphroditic,medium,3/1/2013,5/31/2013,4/15/2013,91,1327.88,2134.09,266.23
+Pulicaria dysenterica,Common Fleabane,Asteraceae,hidden,NA,pluriennial,monoecious,small,6/1/2013,9/30/2013,7/31/2013,121,38379.88,57391.63,0.21
+Pyrus communis,Pear,Rosaceae,part hidden,allogamous,pluriennial,hermaphroditic,tall,4/1/2013,5/31/2013,4/30/2013,60,NA,NA,NA
+Ranunculus acris,Meadow Buttercup,Ranunculacea,part hidden,allogamous,pluriennial,hermaphroditic,small,5/1/2013,10/31/2013,6/15/2013,183,452.76,688.46,78.83
+Ranunculus bulbosus,Bulbous Buttercup,Ranunculacea,part hidden,allogamous,pluriennial,hermaphroditic,small,3/1/2013,9/30/2013,4/15/2013,213,178.64,209.08,49.33
+Ranunculus ficaria,Lesser Celandine,Ranunculacea,part hidden,mixed,pluriennial,hermaphroditic,small,3/1/2013,5/31/2013,3/15/2013,91,96.57,153.13,13.2
+Ranunculus flammula,Lesser Spearwort,Ranunculacea,part hidden,allogamous,pluriennial,hermaphroditic,small,5/1/2013,9/30/2013,7/16/2013,152,290.4,496.49,11.84
+Ranunculus lingua,Greater Spearwort,Ranunculacea,part hidden,allogamous,pluriennial,hermaphroditic,medium,6/1/2013,9/30/2013,7/31/2013,121,55.75,70.85,205.77
+Ranunculus repens,Creeping Buttercup,Ranunculacea,part hidden,allogamous,pluriennial,hermaphroditic,small,5/1/2013,10/31/2013,6/15/2013,183,174.77,275.99,104.51
+Ranunculus sardous,Hairy Buttercup,Ranunculacea,part hidden,allogamous,annual,hermaphroditic,small,6/1/2013,10/31/2013,8/16/2013,152,NA,NA,NA
+Raphanus raphanistrum,Wild Radish,Brassicaceae,part hidden,allogamous,annual,hermaphroditic,small,5/1/2013,8/31/2013,7/1/2013,122,1366.8,NA,115.08
+Raphanus sativus,Radish,Brassicaceae,part hidden,allogamous,annual.biennial,hermaphroditic,small,6/1/2013,7/31/2013,7/1/2013,60,312.97,NA,112.32
+Rhinanthus minor,Yellow Rattle,Orobranchaceae,bee,mixed,annual,hermaphroditic,small,5/1/2013,8/31/2013,6/15/2013,122,590.04,753.48,108.9
+Rhododendron ponticum,Rhododendron,Ericaceae,NA,facultative allogamous,pluriennial,hermaphroditic,medium,2/1/2013,9/30/2013,5/15/2013,241,126.47,130.02,1256.86
+Rhynchospora alba,White Beak-sedge,Monocot,pollen,facultative allogamous,pluriennial,hermaphroditic,small,7/1/2013,8/31/2013,7/31/2013,61,NA,NA,NA
+Rosa canina agg.,Dog Rose,Rosaceae,pollen,facultative autogamous,pluriennial,hermaphroditic,medium,6/1/2013,7/31/2013,7/1/2013,60,65.5,109.51,17.33
+Rubus chamaemorus,Cloudberry,Rosaceae,hidden,allogamous,pluriennial,dioecious,small,6/1/2013,8/31/2013,7/16/2013,91,NA,NA,NA
+Rubus fruticosus agg.,Bramble,Rosaceae,bee,facultative allogamous,pluriennial,hermaphroditic,medium,5/1/2013,9/30/2013,7/16/2013,152,79.03,116.43,1892.83
+Rubus idaeus,Raspberry,Rosaceae,hidden,allogamous,pluriennial,hermaphroditic,medium,6/1/2013,8/31/2013,7/16/2013,91,NA,NA,NA
+Sagina sp.,Pearlwort,Caryophyllaceae,part hidden,autogamous,pluriennial,hermaphroditic,small,5/1/2013,9/30/2013,7/16/2013,152,6480,8954.18,0
+Salix alba,White Willow,Salicaceae,part hidden,allogamous,pluriennial,dioecious,tall,4/1/2013,5/31/2013,4/30/2013,60,NA,NA,NA
+Salix caprea,Goat Willow,Salicaceae,part hidden,allogamous,pluriennial,dioecious,tall,3/1/2013,4/30/2013,3/31/2013,60,NA,NA,NA
+Salix cinerea,Grey Willow,Salicaceae,part hidden,allogamous,pluriennial,dioecious,tall,3/1/2013,4/30/2013,3/31/2013,60,122532.24,334178.84,36.03
+Salix fragilis,Crack willow,Salicaceae,part hidden,allogamous,pluriennial,dioecious,tall,4/1/2013,5/31/2013,4/30/2013,60,NA,NA,NA
+Salix repens agg.,Creeping Willow,Salicaceae,part hidden,allogamous,pluriennial,dioecious,medium,4/1/2013,5/31/2013,4/30/2013,60,NA,NA,NA
+Salvia pratensis,Meadow Clary,Lamiaceae,bee,facultative allogamous,pluriennial,dioecious,medium,6/1/2013,7/31/2013,6/15/2013,60,NA,NA,NA
+Salvia verticillata,Whorled Clary,Lamiaceae,bee,facultative allogamous,pluriennial,monoecious,small,6/1/2013,8/31/2013,7/31/2013,91,NA,NA,NA
+Sambucus nigra,Elder,Asterids,pollen,facultative autogamous,pluriennial,hermaphroditic,tall,6/1/2013,7/31/2013,7/1/2013,60,4529.77,15362.38,9.21
+Sanguisorba minor,Salad Burnet,Rosaceae,pollen,allogamous,pluriennial,monoecious,small,5/1/2013,8/31/2013,7/1/2013,122,2772,3522.75,0.11
+Saponaria officinalis,Soapwort,Caryophyllaceae,bee,facultative autogamous,pluriennial,hermaphroditic,small,7/1/2013,9/30/2013,8/15/2013,91,313,361.15,445.64
+Senecio erucifolius,Hoary Ragwort,Asteraceae,hidden,allogamous,pluriennial,monoecious,medium,7/1/2013,8/31/2013,7/31/2013,61,24987.43,129101.71,26.86
+Senecio jacobaea,Ragwort,Asteraceae,hidden,allogamous,pluriennial,monoecious,medium,6/1/2013,10/31/2013,8/16/2013,152,57792,93309.73,22.6
+Senecio vulgaris,Groundsel,Asteraceae,hidden,facultative autogamous,annual,monoecious,small,1/1/2013,12/31/2013,4/15/2013,364,139152,214945.66,0.19
+Sherardia arvensis,Field Madder,Rubiaceae,bee,allogamous,annual,dioecious,small,4/1/2013,10/31/2013,7/16/2013,213,NA,NA,NA
+Silene dioica,Red Campion,Caryophyllaceae,bee,allogamous,pluriennial,dioecious,small,4/1/2013,9/30/2013,6/30/2013,182,226.54,247.43,450.65
+Silene vulgaris,Sea Campion,Caryophyllaceae,bee,facultative allogamous,pluriennial,dioecious,small,6/1/2013,7/31/2013,7/1/2013,60,316,NA,251.47
+Sinapis arvensis,Charlock,Brassicaceae,open,allogamous,annual,hermaphroditic,small,5/1/2013,7/31/2013,6/15/2013,91,3381.06,23806.45,55.6
+Sison amomum,Stone Parsley,Apiaceae,NA,NA,annual,hermaphroditic,medium,7/1/2013,9/30/2013,8/15/2013,91,NA,NA,NA
+Sisymbrium officinale,Hedge Mustard,Brassicaceae,part hidden,autogamous,annual,hermaphroditic,small,6/1/2013,7/31/2013,7/1/2013,60,4078.88,3947.69,1.8
+Solanum dulcamara,Bittersweet,Solanaceae,pollen,mixed,pluriennial,hermaphroditic,medium,6/1/2013,9/30/2013,7/31/2013,121,127.2,133.78,1.94
+Solanum nigrum,Black Nightshade,Solanaceae,pollen,facultative autogamous,annual,hermaphroditic,small,7/1/2013,9/30/2013,8/15/2013,91,186.95,191.1,0
+Solanum tuberosum,Potato,Solanaceae,pollen,allogamous,pluriennial,hermaphroditic,small,5/1/2013,8/31/2013,7/1/2013,122,23.81,25.04,27.29
+Solidago canadensis,Canadian Goldenrod,Asteraceae,hidden,allogamous,pluriennial,hermaphroditic,medium,10/1/2013,11/30/2013,10/31/2013,60,NA,NA,NA
+Sonchus arvensis,Perennial Sow-thistle,Asteraceae,hidden,facultative autogamous,annual,hermaphroditic,medium,7/1/2013,10/31/2013,8/31/2013,122,27492,44131.89,3.34
+Sonchus asper,Prickly Sow-thistle,Asteraceae,hidden,autogamous,annual,hermaphroditic,medium,6/1/2013,8/31/2013,7/16/2013,91,18447.8,58262.07,0.13
+Sonchus oleraceus,Smooth Sow-thistle,Asteraceae,part hidden,allogamous,pluriennial,hermaphroditic,tall,1/1/2013,12/31/2013,6/15/2013,364,13989.45,18345.09,3.58
+Sorbus aucuparia,Rowan or Mountain Ash,Rosaceae,part hidden,allogamous,pluriennial,hermaphroditic,tall,5/1/2013,6/30/2013,5/31/2013,60,5935.3,6359.25,40.54
+Sorbus torminalis,Wild Service Tree,Rosaceae,part hidden,autogamous,pluriennial,monoecious,small,5/1/2013,6/30/2013,5/15/2013,60,NA,NA,NA
+Spergula arvensis/Spergularia rupicola,Corn Spurrey,Caryophyllaceae,part hidden,autogamous,annual,monoecious,small,6/1/2013,9/30/2013,7/31/2013,121,NA,NA,NA
+Stachys palustris,Marsh Woundwort,Lamiaceae,bee,mixed,pluriennial,hermaphroditic,medium,7/1/2013,9/30/2013,8/15/2013,91,NA,NA,NA
+Stachys sylvatica,Hedge Woundwort,Lamiaceae,bee,mixed,pluriennial,hermaphroditic,medium,7/1/2013,8/31/2013,7/31/2013,61,840.47,NA,311.11
+Stellaria graminea,Lesser Stitchwort,Caryophyllaceae,part hidden,mixed,pluriennial,dioecious,small,5/1/2013,8/31/2013,7/1/2013,122,1332,1562.54,17.05
+Stellaria holostea,Greater Stitchwort,Caryophyllaceae,part hidden,facultative autogamous,pluriennial,dioecious,small,4/1/2013,6/30/2013,5/16/2013,90,1.31,2.03,5.54
+Stellaria media,Common Chickweed,Caryophyllaceae,part hidden,facultative autogamous,annual,hermaphroditic,small,1/1/2013,12/31/2013,7/1/2013,364,220.22,256.69,7.11
+Stellaria palustris,Marsh Stichwort,Caryophyllaceae,part hidden,facultative autogamous,pluriennial,dioecious,small,5/1/2013,7/31/2013,6/16/2013,91,NA,NA,NA
+Stellaria uliginosa,Bog Stitchwort,Caryophyllaceae,part hidden,autogamous,pluriennial,dioecious,small,5/1/2013,6/30/2013,5/31/2013,60,NA,NA,NA
+Succisa pratensis,Devil's-bit Scabious,Asterids,hidden,facultative allogamous,pluriennial,dioecious,medium,6/1/2013,10/31/2013,8/16/2013,152,7727.76,11344.49,47.47
+Symphytum officinale,Common Comfrey,Boraginaceae,bee,allogamous,pluriennial,hermaphroditic,medium,5/1/2013,6/30/2013,5/31/2013,60,99.74,NA,1969.46
+Taraxacum agg.,Dandelion,Asteraceae,hidden,allogamous,pluriennial,hermaphroditic,medium,1/1/2013,12/31/2013,4/15/2013,364,11722.8,16705.84,22.57
+Teucrium scorodonia,Wood Sage,Lamiaceae,bee,facultative allogamous,pluriennial,hermaphroditic,small,6/1/2013,9/30/2013,7/31/2013,121,803.51,996.3,173.61
+Thymus polytrichus,NA,Lamiaceae,hidden,facultative allogamous,pluriennial,dioecious,small,5/1/2013,8/31/2013,7/1/2013,122,828.34,1052.69,24.65
+Tilia platyphyllos,Large-leaved Lime,Rosids,open,allogamous,pluriennial,hermaphroditic,tall,6/1/2013,6/30/2013,6/15/2013,29,NA,NA,NA
+Trientalis europaea,Chickweed Wintergreen,Primulaceae,pollen,allogamous,pluriennial,hermaphroditic,small,6/1/2013,7/31/2013,7/1/2013,60,NA,NA,NA
+Trifolium arvense,Hare's foot clover,Fabaceae,bee,facultative autogamous,annual,hermaphroditic,small,6/1/2013,9/30/2013,7/31/2013,121,NA,NA,NA
+Trifolium dubium,Lesser Trefoil,Fabaceae,bee,mixed,annual,hermaphroditic,small,5/1/2013,10/31/2013,8/1/2013,183,12715.59,26587.14,0
+Trifolium hybridum,Alsike Clover,Fabaceae,bee,allogamous,pluriennial,hermaphroditic,small,6/1/2013,9/30/2013,7/31/2013,121,NA,NA,NA
+Trifolium pratense,Red Clover,Fabaceae,bee,allogamous,pluriennial,hermaphroditic,medium,5/1/2013,9/30/2013,7/16/2013,152,4082.21,10068.97,116.86
+Trifolium repens,White Clover,Fabaceae,bee,allogamous,pluriennial,hermaphroditic,small,6/1/2013,9/30/2013,7/31/2013,121,4902.41,27124.81,48.97
+Tripleurospermum inodorum,Scentless Mayweed,Asteraceae,hidden,allogamous,annual,monoecious,small,7/1/2013,9/30/2013,8/15/2013,91,NA,NA,NA
+Tripleurospermum maritimum/inodorum,Sea Mayweed,Asteraceae,hidden,allogamous,annual,hermaphroditic,small,7/1/2013,9/30/2013,8/15/2013,91,NA,NA,NA
+Tussilago farfara,Coltsfoot,Asteraceae,hidden,facultative allogamous,pluriennial,monoecious,small,3/1/2013,5/31/2013,4/15/2013,91,NA,NA,NA
+Ulex europaeus,Gorse,Fabaceae,bee,allogamous,pluriennial,hermaphroditic,medium,3/1/2013,6/30/2013,5/1/2013,121,708.88,924.63,1.98
+Ulex gallii,Western Gorse,Fabaceae,NA,allogamous,pluriennial,hermaphroditic,medium,7/1/2013,9/30/2013,8/15/2013,91,495.81,1174.64,11.32
+Ulmus procera,English Elm,Rosids,pollen,NA,pluriennial,monoecious,tall,2/1/2013,3/31/2013,3/1/2013,58,NA,NA,NA
+Vaccinium myrtillus,Bilberry,Ericaceae,hidden,facultative autogamous,pluriennial,hermaphroditic,small,4/1/2013,6/30/2013,5/16/2013,90,220.43,300.59,1058.27
+Vaccinium oxycoccos,Cranberry,Ericaceae,hidden,mixed,pluriennial,hermaphroditic,small,6/1/2013,8/31/2013,7/15/2013,91,NA,NA,NA
+Vaccinium vitis-idaea,Cowberry,Ericaceae,hidden,mixed,pluriennial,hermaphroditic,small,6/1/2013,8/31/2013,7/16/2013,91,54.63,114.24,183.74
+Veronica arvensis,Wall Speedwell,Plantaginaceae,hidden,autogamous,annual,hermaphroditic,small,3/1/2013,10/31/2013,7/1/2013,244,NA,NA,NA
+Veronica chamaedrys,Germander Speedwell,Plantaginaceae,open,facultative allogamous,pluriennial,hermaphroditic,small,3/1/2013,7/31/2013,5/15/2013,152,681.6,751.76,8.85
+Veronica montana,Wood Speedwell,Plantaginaceae,open,facultative allogamous,pluriennial,hermaphroditic,small,4/1/2013,7/31/2013,5/31/2013,121,NA,NA,NA
+Veronica officinalis,Heath Speedwell,Plantaginaceae,hidden,allogamous,pluriennial,hermaphroditic,small,5/1/2013,10/31/2013,7/15/2013,183,NA,NA,NA
+Veronica persica,Common Field Speedwell,Plantaginaceae,hidden,facultative autogamous,annual,hermaphroditic,small,1/1/2013,12/31/2013,7/1/2013,364,652.8,745.68,31.59
+Veronica serpyllifolia,Thyme-leaved Speedwell,Plantaginaceae,hidden,mixed,pluriennial,hermaphroditic,small,3/1/2013,10/31/2013,7/1/2013,244,970.36,1580.58,2.83
+Vicia cracca,Tufted Vetch,Fabaceae,bee,facultative allogamous,pluriennial,hermaphroditic,medium,6/1/2013,8/31/2013,7/16/2013,91,404.3,478.9,484.4
+Vicia sativa,Common Vetch,Fabaceae,bee,mixed,annual,hermaphroditic,medium,5/1/2013,9/30/2013,7/16/2013,152,377.02,1432.68,300.34
+Vicia sepium,Bush Vetch,Fabaceae,bee,mixed,pluriennial,hermaphroditic,medium,5/1/2013,8/31/2013,7/1/2013,122,240,NA,117.07
+Viola arvensis,Field Pansy,Violaceae,bee,autogamous,annual,hermaphroditic,small,4/1/2013,10/31/2013,7/16/2013,213,136.73,381.41,53.45
+Viola canina,Heath Dog Violet,Violaceae,bee,facultative allogamous,pluriennial,hermaphroditic,small,4/1/2013,6/30/2013,5/16/2013,90,NA,NA,NA
+Viola palustris,Marsh Violet,Violaceae,open,mixed,pluriennial,hermaphroditic,small,4/1/2013,7/31/2013,5/31/2013,121,NA,NA,NA
+Viola riviniana,Common Dog Violet,Violaceae,bee,facultative autogamous,pluriennial,hermaphroditic,small,4/1/2013,6/30/2013,5/16/2013,90,NA,NA,NA
+Viola riviniana/reichenbiana,Early Dog Violet,Violaceae,bee,facultative autogamous,pluriennial,hermaphroditic,small,3/1/2013,5/31/2013,4/15/2013,91,201.12,263.98,173.41
