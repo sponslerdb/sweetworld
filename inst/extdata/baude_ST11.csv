@@ -1,4 +1,4 @@
-name.latin,name.common,family,flower.shape,breeding.system,life.span,dicliny,height,bloom.start,bloom.end,bloom.peak,bloom.days,flower.density.mean,flower.density.peak,nectar.per.flower
+name.latin,name.common,family,flower.shape,breeding.system,life.span,dicliny,height,bloom.start,bloom.end,bloom.peak,bloom.days,flower.density.mean,flower.density.peak,sugar.per.flower
 Acer campestre,Field Maple,Sapindaceae,open,facultative autogamous,pluriennial,monoecious,tall,5/1/2013,6/30/2013,5/31/2013,60,250.56,NA,NA
 Acer platanoides,Norway Maple,Sapindaceae,open,allogamous,pluriennial,monoecious,tall,4/1/2013,5/31/2013,4/30/2013,60,NA,NA,NA
 Acer pseudoplatanus,Sycomore,Sapindaceae,open,facultative autogamous,pluriennial,monoecious,tall,4/1/2013,6/30/2013,5/16/2013,90,4555.68,7582.15,71.44

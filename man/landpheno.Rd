@@ -3,7 +3,7 @@
 \name{landpheno}
 \alias{landpheno}
 \title{Extend a floral landscape over a time series, apply a phenology function
-to each floral species, and generate a vector of nectar availability through
+to each floral species, and generate a vector of sugar availability through
 time.}
 \usage{
 landpheno(x, first = 0, last = 365)
@@ -16,10 +16,10 @@ landpheno(x, first = 0, last = 365)
 \item{last}{end of time series, by default 365 (= Dec 31)}
 }
 \value{
-A data frame including a vector of nectar availability
+A data frame including a vector of sugar availability
 }
 \description{
 Extend a floral landscape over a time series, apply a phenology function
-to each floral species, and generate a vector of nectar availability through
+to each floral species, and generate a vector of sugar availability through
 time.
 }

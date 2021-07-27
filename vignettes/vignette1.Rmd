@@ -15,7 +15,8 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
-library(floralcurves)
+devtools::load_all()
+#library(floralcurves)
 library(ggplot2)
 ```
 
@@ -47,7 +48,7 @@ land1_tab <- landtab(land1,
 land1_pheno <- landpheno(land1_tab) 
 ```
 
-# Tally nectar availability
+# Tally sugar availability
 ```{r}
 land1_tally_agg <- landtally(land1_pheno)
 
@@ -58,21 +59,25 @@ land1_tally_plant <- landtally(land1_pheno, plant)
 land1_tally_morph <- landtally(land1_pheno, flower.shape)
 ```
 
-# Plot nectar availability
+# Plot sugar availability
 ```{r}
-ggplot(land1_tally_agg, aes(date, total.nectar)) +
+ggplot(land1_tally_agg, aes(date, total.sugar)) +
   geom_area() +
-  theme_light()
+  theme_light() +
+  scale_x_date(date_labels = "%b")
 
-ggplot(land1_tally_class, aes(date, total.nectar, fill = class)) +
+ggplot(land1_tally_class, aes(date, total.sugar, fill = class)) +
   geom_area() +
-  theme_light()
+  theme_light() +
+  scale_x_date(date_labels = "%b")
 
-ggplot(land1_tally_plant, aes(date, total.nectar, fill = plant)) +
+ggplot(land1_tally_plant, aes(date, total.sugar, fill = plant)) +
   geom_area() +
-  theme_light()
+  theme_light() +
+  scale_x_date(date_labels = "%b")
 
-ggplot(land1_tally_morph, aes(date, total.nectar, fill = flower.shape)) +
+ggplot(land1_tally_morph, aes(date, total.sugar, fill = flower.shape)) +
   geom_area() +
-  theme_light()
+  theme_light() +
+  scale_x_date(date_labels = "%b")
 ```

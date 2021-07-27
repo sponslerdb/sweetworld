@@ -19,7 +19,7 @@
 #' relative abundance of each plant within class2; same length as comp2
 #' @param traitTab a table of floral taxa and traits; must at minimum contain
 #' (1) plant name, (2) peak floral density, (3) first bloom, (4) peak bloom,
-#' (5) last bloom, and (6) nectar per flower; ideally also contains relevant
+#' (5) last bloom, and (6) sugar per flower; ideally also contains relevant
 #' functional traits in the form of categorical variables.
 #' @param plantNames the name of the column in the trait table that contains the
 #' plant names
@@ -43,5 +43,6 @@ landtab <- function(x, comp0, comp1, comp2,
     dplyr::mutate(plant = unlist(plant),
                   index = dplyr::row_number()) %>%
     dplyr::select(index, x, y, class, plant) %>%
-    dplyr::left_join(traitTab, by = c("plant" = plantNames))
+    dplyr::left_join(traitTab, by = c("plant" = plantNames)) %>%
+    as_tibble()
 }

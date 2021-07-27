@@ -25,13 +25,13 @@ library(ggplot2)
 #                 bloom.peak = lubridate::yday(lubridate::mdy(bloom.peak))) %>%
 #   dplyr::select(-flower.density.mean) %>%
 #   dplyr::filter(!is.na(flower.density.peak)) %>%
-#   dplyr::filter(!is.na(nectar.per.flower)) %>%
+#   dplyr::filter(!is.na(sugar.per.flower)) %>%
 # 
 #   # Add a class with zero floral resources; this can represent impervious surface, water, turfgrass, etc.
 #   tibble::add_row(name.latin = "null", name.common = "null", family = "null",
 #                   breeding.system = "null", life.span = "null", dicliny = "null",
 #                   height = "null", bloom.start = 1, bloom.end = 365, bloom.peak = 180,
-#                   bloom.days = 365, flower.density.peak = 0, nectar.per.flower = 0)
+#                   bloom.days = 365, flower.density.peak = 0, sugar.per.flower = 0)
 # 
 # use_data(
 #   baude_traits,
@@ -93,7 +93,7 @@ meadow_pheno <- landpheno(meadow_tab)
 osr_pheno <- landpheno(osr_tab)
 ```
 
-# Tally nectar availability
+# Tally sugar availability
 ```{r}
 meadow_tally_agg <- landtally(meadow_pheno) %>%
   dplyr::mutate(scenario = rep("meadow", dplyr::n()))
@@ -105,12 +105,13 @@ meadow_osr_tally_agg <- dplyr::bind_rows(meadow_tally_agg, osr_tally_agg)
 
 ```
 
-# Plot nectar availability
+# Plot sugar availability
 ```{r}
 # We could imagine a certain level below which floral resources become limiting; in reality, this line would be a curve 
 # that responds to florivore density.
-ggplot(meadow_osr_tally_agg, aes(date, total.nectar, color = scenario)) +
+ggplot(meadow_osr_tally_agg, aes(date, total.sugar, color = scenario)) +
   geom_line() +
   geom_hline(yintercept = 1e9, linetype = "dashed") +
-  theme_light()
+  theme_light() +
+  scale_x_date(date_labels = "%b")
 ```

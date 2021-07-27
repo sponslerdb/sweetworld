@@ -19,7 +19,7 @@ A data frame with 163 rows and 14 variables:
   \item{bloom.end}{end of bloom, day of year}
   \item{bloom.peak}{peak bloom, day of year}
   \item{flower.density.peak}{flowers per square meter at peak bloom}
-  \item{nectar.per.flower}{micrograms of suger per flower per day}
+  \item{sugar.per.flower}{micrograms of suger per flower per day}
   ...
 }
 }

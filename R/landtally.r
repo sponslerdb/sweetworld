@@ -1,10 +1,10 @@
-#' Sum up nectar availability by various criteria (e.g. morphology, patch class,
+#' Sum up sugar availability by various criteria (e.g. morphology, patch class,
 #' floral taxon).
 #'
 #' @param x the data frame output of \code{landpheno}
 #' @param criterion a categorical variable in the input data frame \code{x}
-#'     by which nectar availability will be parsed
-#' @return A data frame of summed nectar availability
+#'     by which sugar availability will be parsed
+#' @return A data frame of summed sugar availability
 #' @export
 
 
@@ -14,6 +14,6 @@ landtally <- function (x, criterion = NULL) {
 
   x %>%
     dplyr::group_by(time, !!criterion) %>%
-    dplyr::summarize(total.nectar = sum(nectar)) %>%
+    dplyr::summarize(total.sugar = sum(sugar)) %>%
     dplyr::mutate(date = lubridate::as_date(time))
 }
