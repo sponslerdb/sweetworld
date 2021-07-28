@@ -44,5 +44,5 @@ landtab <- function(x, comp0, comp1, comp2,
                   index = dplyr::row_number()) %>%
     dplyr::select(index, x, y, class, plant) %>%
     dplyr::left_join(traitTab, by = c("plant" = plantNames)) %>%
-    as_tibble()
+    tibble::as_tibble()
 }

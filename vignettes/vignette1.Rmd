@@ -15,8 +15,8 @@ knitr::opts_chunk$set(
 ```
 
 ```{r setup}
-devtools::load_all()
-#library(floralcurves)
+#devtools::load_all()
+library(floralcurves)
 library(ggplot2)
 ```
 
