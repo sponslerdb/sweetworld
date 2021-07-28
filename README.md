@@ -1,12 +1,8 @@
----
-output: github_document
----
-
 ## Overview
 
 `floralcurves` is a package for analyzing and visualizing landscape-scale floral resource dynamics.  
 
-![Alt text](./docs/model_schematic.png?raw=true "Title")
+![Alt text](https://github.com/sponslerdb/floralcurves/blob/main/inst/extdata/model_schematic.png?raw=true "Title")
 
 
 ## Installation
