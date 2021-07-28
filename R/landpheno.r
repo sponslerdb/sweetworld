@@ -14,7 +14,7 @@ landpheno <- function(x, first = 0, last = 365) {
 
   x %>%
     tidyr::crossing(time) %>%
-    mutate(date = lubridate::as_date(time)) %>%
+    dplyr::mutate(date = lubridate::as_date(time)) %>%
 
     # Calculate triangular density function
     dplyr::mutate(phenology = purrr::pmap(list(time, bloom.start, bloom.end,
