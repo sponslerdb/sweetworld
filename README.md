@@ -10,15 +10,15 @@ Together, flowering plants and flower-visiting animals account for about
 trophic interface between flowers and florivores is, therefore, one of
 the chief foundations of global biodiversity, and patterns of floral
 resource availability can be expected to govern abundance, diversity,
-and functional relationships at higher trophic levels. floralcurves is a
-sandbox for exploring landscape-scale patterns of floral resource
-availability arising from simulated floral communities. In this
-tutorial, we will simulate only nectar availability, but an analogous
-simulation could be done for pollen given the requisite data.
+and functional relationships at higher trophic levels. **floralcurves**
+is a sandbox for exploring landscape-scale patterns of floral resource
+availability arising from simulated floral communities.
 
 <!-- ![Alt text](https://github.com/sponslerdb/floralcurves/blob/main/inst/extdata/model_schematic.png?raw=true "Title") -->
 
 ## Installation
+
+`devtools::install_github("sponslerdb/floralcurves")`
 
 ## 1. Generate landscape
 
@@ -46,8 +46,6 @@ added some more information.
                      prop2 = 0.2, 
                      n1 = 10, 
                      n2 = 10) 
-
-    ## Warning in makePatch(context = mtx, spt = pts[np], size = size[np], bgr = bgr, : Patch size reached from seed point 9998 was 109 . No further background cells available for the patch.
 
 ## 2. Tabulate landscape
 
@@ -126,7 +124,7 @@ simulated.
 
     plot1 / plot2
 
-![](README_files/figure-markdown_strict/unnamed-chunk-50-1.png)
+![](README_files/figure-markdown_strict/unnamed-chunk-4-1.png)
 
 ## 3. Extend landscape through time
 
@@ -181,8 +179,6 @@ distribution of floral resource availability varies through the year.
       filter(month %in% c("Mar", "Apr", "May", "Jun", 
                           "Jul", "Aug", "Sep", "Oct"))
 
-    ## `summarise()` has grouped output by 'x', 'y'. You can override using the `.groups` argument.
-
     ggplot(land1_pheno_monthly_mean, aes(x, y, fill = mean.sugar)) +
       geom_raster() +
       theme_minimal(14) +
@@ -192,8 +188,9 @@ distribution of floral resource availability varies through the year.
       coord_fixed() +
       facet_wrap(~month, ncol = 4)
 
-![](README_files/figure-markdown_strict/unnamed-chunk-52-1.png) \#\# 4.
-Tally landscape
+![](README_files/figure-markdown_strict/unnamed-chunk-6-1.png)
+
+## 4. Tally landscape
 
 Finally, we can focus on temporal patterns of floral resources by
 tallying the total sugar availability of the landscape for each time
@@ -220,7 +217,7 @@ availability using line or area plots.
       scale_x_date(date_labels = "%b") +
       labs(x = NULL, y = "Total sugar (g)", title = "Aggregate")
 
-![](README_files/figure-markdown_strict/unnamed-chunk-54-1.png)
+![](README_files/figure-markdown_strict/unnamed-chunk-8-1.png)
 
     ggplot(land1_tally_class, aes(date, total.sugar, color = class)) +
       geom_line() +
@@ -229,7 +226,7 @@ availability using line or area plots.
       labs(x = NULL, y = "Total sugar (g)", color = "Habitat class",
            title = "By habitat class")
 
-![](README_files/figure-markdown_strict/unnamed-chunk-54-2.png)
+![](README_files/figure-markdown_strict/unnamed-chunk-8-2.png)
 
     ggplot(land1_tally_plant, aes(date, total.sugar, color = plant)) +
       geom_line() +
@@ -238,7 +235,7 @@ availability using line or area plots.
       labs(x = NULL, y = "Total sugar (g)", color = "Plant sp.",
            title = "By plant species")
 
-![](README_files/figure-markdown_strict/unnamed-chunk-54-3.png)
+![](README_files/figure-markdown_strict/unnamed-chunk-8-3.png)
 
     ggplot(land1_tally_morph, aes(date, total.sugar, color = flower.shape)) +
       geom_line() +
@@ -247,7 +244,7 @@ availability using line or area plots.
       labs(x = NULL, y = "Total sugar (g)", color = "Floral morphotype",
            title = "By flower shape")
 
-![](README_files/figure-markdown_strict/unnamed-chunk-54-4.png)
+![](README_files/figure-markdown_strict/unnamed-chunk-8-4.png)
 
     ggplot(land1_tally_plant, aes(date, total.sugar, fill = plant)) +
       geom_area(color = "white") +
@@ -255,9 +252,9 @@ availability using line or area plots.
       scale_x_date(date_labels = "%b") +
       scale_fill_viridis_d(option = "inferno", direction = 1) +
       labs(x = NULL, y = "Total sugar (g)", fill = "Plant sp.",
-           title = "By plant species (areaplot)")
+           title = "By plant species")
 
-![](README_files/figure-markdown_strict/unnamed-chunk-54-5.png)
+![](README_files/figure-markdown_strict/unnamed-chunk-8-5.png)
 
 ## References
 
