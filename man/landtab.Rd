@@ -33,7 +33,7 @@ relative abundance of each plant within class2; same length as comp2}
 
 \item{traitTab}{a table of floral taxa and traits; must at minimum contain
 (1) plant name, (2) peak floral density, (3) first bloom, (4) peak bloom,
-(5) last bloom, and (6) nectar per flower; ideally also contains relevant
+(5) last bloom, and (6) sugar per flower; ideally also contains relevant
 functional traits in the form of categorical variables.}
 
 \item{plantNames}{the name of the column in the trait table that contains the

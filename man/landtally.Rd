@@ -2,7 +2,7 @@
 % Please edit documentation in R/landtally.r
 \name{landtally}
 \alias{landtally}
-\title{Sum up nectar availability by various criteria (e.g. morphology, patch class,
+\title{Sum up sugar availability by various criteria (e.g. morphology, patch class,
 floral taxon).}
 \usage{
 landtally(x, criterion = NULL)
@@ -11,12 +11,12 @@ landtally(x, criterion = NULL)
 \item{x}{the data frame output of \code{landpheno}}
 
 \item{criterion}{a categorical variable in the input data frame \code{x}
-by which nectar availability will be parsed}
+by which sugar availability will be parsed}
 }
 \value{
-A data frame of summed nectar availability
+A data frame of summed sugar availability
 }
 \description{
-Sum up nectar availability by various criteria (e.g. morphology, patch class,
+Sum up sugar availability by various criteria (e.g. morphology, patch class,
 floral taxon).
 }
