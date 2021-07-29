@@ -8,13 +8,14 @@
 #' @return A data frame including a vector of sugar availability
 #' @export
 
-landpheno <- function(x, first = 0, last = 365) {
+landpheno <- function(x, first = 0, last = 364) {
 
   time <- seq(first:last)
 
   x %>%
     tidyr::crossing(time) %>%
-    dplyr::mutate(date = lubridate::as_date(time)) %>%
+    dplyr::mutate(date = lubridate::as_date(time),
+                  month = lubridate::month(date)) %>%
 
     # Calculate triangular density function
     dplyr::mutate(phenology = purrr::pmap(list(time, bloom.start, bloom.end,
