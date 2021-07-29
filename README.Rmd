@@ -1,3 +1,7 @@
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/sponslerdb/floralcurves/workflows/R-CMD-check/badge.svg)](https://github.com/sponslerdb/floralcurves/actions)
+<!-- badges: end -->
+
 ## Overview
 
 `floralcurves` is a package for analyzing and visualizing landscape-scale floral resource dynamics.  
