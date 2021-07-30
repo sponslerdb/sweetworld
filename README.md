@@ -29,17 +29,15 @@ present, the function is hardcoded to produce a 3-class landscape
 in later versions of the package.
 
 The following code produces a 100 x 100 cell raster (`area = 10000`); if
-each cell represents 1 m<sup>2</sup>, the result is a one hectare
-landscape. Class 0 represents the background matrix on which patches of
-class 1 and class 2 are generated. The proportional abundance of classes
-1 and 2 are controlled by `prop1` and `prop2`, respectively, with the
-proportional abundance of class 0 equal to 1 - (`prop1` + `prop2`). The
-grain size of the landscape is controlled by `n1` and `n2`, which
-determine the number of patches over which the total area of class 1 and
-class 2 are distributed.
-
-It’s tempting to visualize it right away, but let’s wait until we have
-added some more information.
+each cell is taken to represent 1 m<sup>2</sup>, the result is a one
+hectare landscape. Class 0 represents the background matrix on which
+patches of class 1 and class 2 are generated. The proportional abundance
+of classes 1 and 2 are controlled by `prop1` and `prop2`, respectively,
+with the proportional abundance of class 0 equal to 1 - (`prop1` +
+`prop2`). The grain size of the landscape is controlled by `n1` and
+`n2`, which determine the number of patches over which the total area of
+class 1 and class 2 are distributed. Note that patches can become
+contiguous.
 
     land1 <- landgen(area = 10000, 
                      prop1 = 0.6, 
@@ -63,13 +61,13 @@ classes. In the code below, habitat class 1 is simulated as pure
 (representing non-crop herbaceous habitat) and 1 (representing forest)
 are assigned multiple species. If a habitat class is assigned multiple
 species, each landscape cell is assigned a single species drawn randomly
-from pool assigned to the class to which it belongs. The relative
-abundance of each species within each class is controlled by the
-arguments `prob0`, `prob1`, and `prob2`, each of which consists of a
-vector of weights that govern the random sampling process. For ease of
-interpretation, these weights should sum to 1, but the base `R` function
-`sample()` that works behind the scenes of `landtab` will accept any
-vector of weights and automatically rescale them.
+from the vector of species assigned to the class to which it belongs.
+The relative abundance of each species within each class is controlled
+by the arguments `prob0`, `prob1`, and `prob2`, each of which consists
+of a vector of weights that govern the random sampling process. For ease
+of interpretation, these weights should sum to 1, but the base `R`
+function `sample()` that works behind the scenes of `landtab` will
+accept any vector of weights and automatically rescale them.
 
 Once a plant species has been assigned to each cell of the landscape
 (now formatted as a row in a data table), we can add floral traits from
