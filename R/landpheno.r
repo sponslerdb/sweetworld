@@ -21,7 +21,7 @@ landpheno <- function(x, first = 0, last = 364) {
     dplyr::mutate(phenology = purrr::pmap(list(time, bloom.start, bloom.end,
                                                bloom.peak), pheno)) %>%
 
-    # Unlist the result' not sure why it produces a list
+    # Unlist the result; not sure why it produces a list
     dplyr::mutate(phenology = unlist(phenology)) %>%
 
     # Normalize density function so that max density = 1

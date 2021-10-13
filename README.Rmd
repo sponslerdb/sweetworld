@@ -136,23 +136,35 @@ ggplot(land1_pheno_monthly_mean, aes(x, y, fill = mean.sugar)) +
 Finally, we can focus on temporal patterns of floral resources by tallying the total sugar availability of the landscape for each time step (i.e. day). The function `landtally` performs this operation, optionally parsing total sugar availability by a given `criterion` corresponding to a categorical variable in the trait table (e.g. botanical family, floral morphotype) or the variable `class` representing the habitat classes of the initial raster.
 
 ```{r}
-land1_tally_agg <- landtally(land1_pheno)
+hb_pressure <- hb_press(start = 90, end = 270, peak = 225, hives = 10)
 
-land1_tally_class <- landtally(land1_pheno, criterion = class)
+land1_tally_agg <- landtally(land1_pheno) %>%
+  left_join(hb_pressure) %>%
+  mutate(adj.sugar = ifelse(total.sugar > 0, total.sugar/hb.pop, total.sugar)) %>%
+  pivot_longer(cols = c(total.sugar, adj.sugar), values_to = "grams", names_to = "sugar")
 
-land1_tally_plant <- landtally(land1_pheno, criterion = plant)
+land1_tally_class <- landtally(land1_pheno, criterion = class) %>%
+  left_join(hb_pressure) %>%
+  mutate(adj.sugar = ifelse(total.sugar > 0, total.sugar/hb.pop, total.sugar))
 
-land1_tally_morph <- landtally(land1_pheno, criterion = flower.shape)
+land1_tally_plant <- landtally(land1_pheno, criterion = plant) %>%
+  left_join(hb_pressure) %>%
+  mutate(adj.sugar = ifelse(total.sugar > 0, total.sugar/hb.pop, total.sugar))
+
+land1_tally_morph <- landtally(land1_pheno, criterion = flower.shape) %>%
+  left_join(hb_pressure) %>%
+  mutate(adj.sugar = ifelse(total.sugar > 0, total.sugar/hb.pop, total.sugar))
 ```
 
 With these tallied data, we can visualize variation in resource availability using line or area plots.
 
 ```{r}
-ggplot(land1_tally_agg, aes(date, total.sugar)) +
+ggplot(land1_tally_agg, aes(date, grams)) +
   geom_line() +
   theme_minimal(18) +
   scale_x_date(date_labels = "%b") +
-  labs(x = NULL, y = "Total sugar (g)", title = "Aggregate")
+  labs(x = NULL, y = "Sugar (g)", title = "Aggregate") +
+  facet_wrap(~sugar, scales = "free")
 
 ggplot(land1_tally_class, aes(date, total.sugar, color = class)) +
   geom_line() +
