@@ -145,15 +145,21 @@ land1_tally_agg <- landtally(land1_pheno) %>%
 
 land1_tally_class <- landtally(land1_pheno, criterion = class) %>%
   left_join(hb_pressure) %>%
-  mutate(adj.sugar = ifelse(total.sugar > 0, total.sugar/hb.pop, total.sugar))
+  mutate(adj.sugar = ifelse(total.sugar > 0, total.sugar/hb.pop, total.sugar)) %>%
+  group_by(class) %>%
+  pivot_longer(cols = c(total.sugar, adj.sugar), values_to = "grams", names_to = "sugar")
 
 land1_tally_plant <- landtally(land1_pheno, criterion = plant) %>%
   left_join(hb_pressure) %>%
-  mutate(adj.sugar = ifelse(total.sugar > 0, total.sugar/hb.pop, total.sugar))
+  mutate(adj.sugar = ifelse(total.sugar > 0, total.sugar/hb.pop, total.sugar)) %>%
+  group_by(plant) %>%
+  pivot_longer(cols = c(total.sugar, adj.sugar), values_to = "grams", names_to = "sugar")
 
 land1_tally_morph <- landtally(land1_pheno, criterion = flower.shape) %>%
   left_join(hb_pressure) %>%
-  mutate(adj.sugar = ifelse(total.sugar > 0, total.sugar/hb.pop, total.sugar))
+  mutate(adj.sugar = ifelse(total.sugar > 0, total.sugar/hb.pop, total.sugar)) %>%
+  group_by(flower.shape) %>%
+  pivot_longer(cols = c(total.sugar, adj.sugar), values_to = "grams", names_to = "sugar")
 ```
 
 With these tallied data, we can visualize variation in resource availability using line or area plots.
@@ -166,34 +172,38 @@ ggplot(land1_tally_agg, aes(date, grams)) +
   labs(x = NULL, y = "Sugar (g)", title = "Aggregate") +
   facet_wrap(~sugar, scales = "free")
 
-ggplot(land1_tally_class, aes(date, total.sugar, color = class)) +
+ggplot(land1_tally_class, aes(date, grams, color = class)) +
   geom_line() +
   theme_minimal(18) +
   scale_x_date(date_labels = "%b") +
   labs(x = NULL, y = "Total sugar (g)", color = "Habitat class",
-       title = "By habitat class")
+       title = "By habitat class") +
+  facet_wrap(~sugar, scales = "free")
 
-ggplot(land1_tally_plant, aes(date, total.sugar, color = plant)) +
+ggplot(land1_tally_plant, aes(date, grams, color = plant)) +
   geom_line() +
   theme_minimal(18) +
   scale_x_date(date_labels = "%b") +
   labs(x = NULL, y = "Total sugar (g)", color = "Plant sp.",
-       title = "By plant species")
+       title = "By plant species") +
+  facet_wrap(~sugar, scales = "free")
 
-ggplot(land1_tally_morph, aes(date, total.sugar, color = flower.shape)) +
+ggplot(land1_tally_morph, aes(date, grams, color = flower.shape)) +
   geom_line() +
   theme_minimal(18) +
   scale_x_date(date_labels = "%b") +
   labs(x = NULL, y = "Total sugar (g)", color = "Floral morphotype",
-       title = "By flower shape")
+       title = "By flower shape") +
+  facet_wrap(~sugar, scales = "free")
 
-ggplot(land1_tally_plant, aes(date, total.sugar, fill = plant)) +
+ggplot(land1_tally_plant, aes(date, grams, fill = plant)) +
   geom_area(color = "white") +
   theme_minimal(18) +
   scale_x_date(date_labels = "%b") +
   scale_fill_viridis_d(option = "inferno", direction = 1) +
   labs(x = NULL, y = "Total sugar (g)", fill = "Plant sp.",
-       title = "By plant species")
+       title = "By plant species") +
+  facet_wrap(~sugar, scales = "free")
 
 ```
 
