@@ -118,16 +118,18 @@ land1_pheno_monthly_mean <- land1_pheno %>%
   group_by(x, y, month) %>%
   summarize(mean.sugar = mean(sugar)) %>%
   filter(month %in% c("Mar", "Apr", "May", "Jun", 
-                      "Jul", "Aug", "Sep", "Oct"))
+                      "Jul", "Aug", "Sep", "Okt"))
 
 ggplot(land1_pheno_monthly_mean, aes(x, y, fill = mean.sugar)) +
   geom_raster() +
-  theme_minimal(14) +
+  theme_minimal(12) +
   #scale_fill_gradient(low = "white", high = "red") +
   scale_fill_viridis_c(option = "rocket", direction = -1) +
   labs(fill = "Sugar (g)", x = NULL, y = NULL) +
   coord_fixed() +
-  facet_wrap(~month, ncol = 4)
+  facet_wrap(~month)
+# +
+#   facet_wrap(~month, ncol = 4)
 ```
 
 

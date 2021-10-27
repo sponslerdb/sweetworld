@@ -122,7 +122,7 @@ simulated.
 
     plot1 / plot2
 
-![](README_files/figure-markdown_strict/unnamed-chunk-4-1.png)
+![](README_files/figure-markdown_strict/unnamed-chunk-6-1.png)
 
 ## 3. Extend landscape through time
 
@@ -175,18 +175,21 @@ distribution of floral resource availability varies through the year.
       group_by(x, y, month) %>%
       summarize(mean.sugar = mean(sugar)) %>%
       filter(month %in% c("Mar", "Apr", "May", "Jun", 
-                          "Jul", "Aug", "Sep", "Oct"))
+                          "Jul", "Aug", "Sep", "Okt"))
 
     ggplot(land1_pheno_monthly_mean, aes(x, y, fill = mean.sugar)) +
       geom_raster() +
-      theme_minimal(14) +
+      theme_minimal(12) +
       #scale_fill_gradient(low = "white", high = "red") +
       scale_fill_viridis_c(option = "rocket", direction = -1) +
       labs(fill = "Sugar (g)", x = NULL, y = NULL) +
       coord_fixed() +
-      facet_wrap(~month, ncol = 4)
+      facet_wrap(~month)
 
-![](README_files/figure-markdown_strict/unnamed-chunk-6-1.png)
+![](README_files/figure-markdown_strict/unnamed-chunk-8-1.png)
+
+    # +
+    #   facet_wrap(~month, ncol = 4)
 
 ## 4. Tally landscape
 
@@ -215,7 +218,7 @@ availability using line or area plots.
       scale_x_date(date_labels = "%b") +
       labs(x = NULL, y = "Sugar (g)", title = "Aggregate")
 
-![](README_files/figure-markdown_strict/unnamed-chunk-8-1.png)
+![](README_files/figure-markdown_strict/unnamed-chunk-10-1.png)
 
     ggplot(land1_tally_class, aes(date, total.sugar, color = class)) +
       geom_line() +
@@ -224,7 +227,7 @@ availability using line or area plots.
       labs(x = NULL, y = "Total sugar (g)", color = "Habitat class",
            title = "By habitat class") 
 
-![](README_files/figure-markdown_strict/unnamed-chunk-8-2.png)
+![](README_files/figure-markdown_strict/unnamed-chunk-10-2.png)
 
     ggplot(land1_tally_plant, aes(date, total.sugar, color = plant)) +
       geom_line() +
@@ -233,7 +236,7 @@ availability using line or area plots.
       labs(x = NULL, y = "Total sugar (g)", color = "Plant sp.",
            title = "By plant species")
 
-![](README_files/figure-markdown_strict/unnamed-chunk-8-3.png)
+![](README_files/figure-markdown_strict/unnamed-chunk-10-3.png)
 
     ggplot(land1_tally_morph, aes(date, total.sugar, color = flower.shape)) +
       geom_line() +
@@ -242,7 +245,7 @@ availability using line or area plots.
       labs(x = NULL, y = "Total sugar (g)", color = "Floral morphotype",
            title = "By flower shape") 
 
-![](README_files/figure-markdown_strict/unnamed-chunk-8-4.png)
+![](README_files/figure-markdown_strict/unnamed-chunk-10-4.png)
 
     ggplot(land1_tally_plant, aes(date, total.sugar, fill = plant)) +
       geom_area(color = "white") +
@@ -252,7 +255,7 @@ availability using line or area plots.
       labs(x = NULL, y = "Total sugar (g)", fill = "Plant sp.",
            title = "By plant species") 
 
-![](README_files/figure-markdown_strict/unnamed-chunk-8-5.png)
+![](README_files/figure-markdown_strict/unnamed-chunk-10-5.png)
 
 ## References
 
