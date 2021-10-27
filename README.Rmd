@@ -14,6 +14,7 @@ library(sweetworld)
 library(tidyverse)
 library(lubridate)
 library(patchwork)
+Sys.setlocale(locale = "en_US.UTF-8")
 ```
 
 ## Overview
@@ -118,7 +119,7 @@ land1_pheno_monthly_mean <- land1_pheno %>%
   group_by(x, y, month) %>%
   summarize(mean.sugar = mean(sugar)) %>%
   filter(month %in% c("Mar", "Apr", "May", "Jun", 
-                      "Jul", "Aug", "Sep", "Okt"))
+                      "Jul", "Aug", "Sep", "Oct"))
 
 ggplot(land1_pheno_monthly_mean, aes(x, y, fill = mean.sugar)) +
   geom_raster() +
