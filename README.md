@@ -214,7 +214,7 @@ availability using line or area plots.
 
     ggplot(land1_tally_agg, aes(date, total.sugar)) +
       geom_line() +
-      theme_minimal(12) +
+      theme_minimal(14) +
       scale_x_date(date_labels = "%b") +
       labs(x = NULL, y = "Sugar (g)", title = "Aggregate")
 
@@ -222,7 +222,7 @@ availability using line or area plots.
 
     ggplot(land1_tally_class, aes(date, total.sugar, color = class)) +
       geom_line() +
-      theme_minimal(12) +
+      theme_minimal(14) +
       scale_x_date(date_labels = "%b") +
       labs(x = NULL, y = "Total sugar (g)", color = "Habitat class",
            title = "By habitat class") 
@@ -231,7 +231,7 @@ availability using line or area plots.
 
     ggplot(land1_tally_plant, aes(date, total.sugar, color = plant)) +
       geom_line() +
-      theme_minimal(12) +
+      theme_minimal(14) +
       scale_x_date(date_labels = "%b") +
       labs(x = NULL, y = "Total sugar (g)", color = "Plant sp.",
            title = "By plant species")
@@ -240,7 +240,7 @@ availability using line or area plots.
 
     ggplot(land1_tally_morph, aes(date, total.sugar, color = flower.shape)) +
       geom_line() +
-      theme_minimal(12) +
+      theme_minimal(14) +
       scale_x_date(date_labels = "%b") +
       labs(x = NULL, y = "Total sugar (g)", color = "Floral morphotype",
            title = "By flower shape") 
@@ -249,7 +249,7 @@ availability using line or area plots.
 
     ggplot(land1_tally_plant, aes(date, total.sugar, fill = plant)) +
       geom_area(color = "white") +
-      theme_minimal(12) +
+      theme_minimal(14) +
       scale_x_date(date_labels = "%b") +
       scale_fill_viridis_d(option = "inferno", direction = 1) +
       labs(x = NULL, y = "Total sugar (g)", fill = "Plant sp.",
