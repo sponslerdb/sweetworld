@@ -122,7 +122,7 @@ simulated.
 
     plot1 / plot2
 
-![](README_files/figure-markdown_strict/unnamed-chunk-4-1.png)
+![](README_files/figure-markdown_strict/unnamed-chunk-5-1.png)
 
 ## 3. Extend landscape through time
 
@@ -186,7 +186,7 @@ distribution of floral resource availability varies through the year.
       coord_fixed() +
       facet_wrap(~month)
 
-![](README_files/figure-markdown_strict/unnamed-chunk-6-1.png)
+![](README_files/figure-markdown_strict/unnamed-chunk-7-1.png)
 
     # +
     #   facet_wrap(~month, ncol = 4)
@@ -214,48 +214,48 @@ availability using line or area plots.
 
     ggplot(land1_tally_agg, aes(date, total.sugar)) +
       geom_line() +
-      theme_minimal(14) +
+      theme_minimal(16) +
       scale_x_date(date_labels = "%b") +
       labs(x = NULL, y = "Sugar (g)", title = "Aggregate")
 
-![](README_files/figure-markdown_strict/unnamed-chunk-8-1.png)
+![](README_files/figure-markdown_strict/unnamed-chunk-9-1.png)
 
     ggplot(land1_tally_class, aes(date, total.sugar, color = class)) +
       geom_line() +
-      theme_minimal(14) +
+      theme_minimal(16) +
       scale_x_date(date_labels = "%b") +
       labs(x = NULL, y = "Total sugar (g)", color = "Habitat class",
            title = "By habitat class") 
 
-![](README_files/figure-markdown_strict/unnamed-chunk-8-2.png)
+![](README_files/figure-markdown_strict/unnamed-chunk-9-2.png)
 
     ggplot(land1_tally_plant, aes(date, total.sugar, color = plant)) +
       geom_line() +
-      theme_minimal(14) +
+      theme_minimal(16) +
       scale_x_date(date_labels = "%b") +
       labs(x = NULL, y = "Total sugar (g)", color = "Plant sp.",
            title = "By plant species")
 
-![](README_files/figure-markdown_strict/unnamed-chunk-8-3.png)
+![](README_files/figure-markdown_strict/unnamed-chunk-9-3.png)
 
     ggplot(land1_tally_morph, aes(date, total.sugar, color = flower.shape)) +
       geom_line() +
-      theme_minimal(14) +
+      theme_minimal(16) +
       scale_x_date(date_labels = "%b") +
       labs(x = NULL, y = "Total sugar (g)", color = "Floral morphotype",
            title = "By flower shape") 
 
-![](README_files/figure-markdown_strict/unnamed-chunk-8-4.png)
+![](README_files/figure-markdown_strict/unnamed-chunk-9-4.png)
 
     ggplot(land1_tally_plant, aes(date, total.sugar, fill = plant)) +
       geom_area(color = "white") +
-      theme_minimal(14) +
+      theme_minimal(16) +
       scale_x_date(date_labels = "%b") +
       scale_fill_viridis_d(option = "inferno", direction = 1) +
       labs(x = NULL, y = "Total sugar (g)", fill = "Plant sp.",
            title = "By plant species") 
 
-![](README_files/figure-markdown_strict/unnamed-chunk-8-5.png)
+![](README_files/figure-markdown_strict/unnamed-chunk-9-5.png)
 
 ## References
 
