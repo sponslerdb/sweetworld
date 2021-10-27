@@ -21,11 +21,11 @@ Sys.setlocale(locale = "en_US.UTF-8")
 
 Together, flowering plants and flower-visiting animals account for about 1/3 of all described extant species of eukaryotic life on Earth. The trophic interface between flowers and florivores is, therefore, one of the chief foundations of global biodiversity, and patterns of floral resource availability can be expected to govern abundance, diversity, and functional relationships at higher trophic levels. **sweetworld** is a sandbox for exploring landscape-scale patterns of floral resource availability arising from simulated floral communities. 
 
-<!-- ![Alt text](https://github.com/sponslerdb/floralcurves/blob/main/inst/extdata/model_schematic.png?raw=true "Title") -->
+<!-- ![Alt text](https://github.com/sponslerdb/sweetworld/blob/main/inst/extdata/model_schematic.png?raw=true "Title") -->
 
 ## Installation
 
-`devtools::install_github("sponslerdb/floralcurves")`
+`devtools::install_github("sponslerdb/sweetworld")`
 
 ## 1. Generate landscape
 
