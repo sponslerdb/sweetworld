@@ -1,4 +1,5 @@
 library(magick)
+library(hexSticker)
 s <- image_read("~/sweetworld/inst/extdata/hex_sticker1_baseplot.png")
 
 sticker(s, package="sweetworld", p_size=20,
