@@ -107,7 +107,7 @@ simulated.
     # Classes
     plot1 <- ggplot(land1_tab, aes(x, y, fill = class)) +
       geom_raster() +
-      theme_minimal(16) +
+      theme_minimal(12) +
       scale_fill_viridis_d() +
       labs(fill = "Patch class", x = NULL, y = NULL) +
       coord_fixed()
@@ -115,7 +115,7 @@ simulated.
     # Plants
     plot2 <- ggplot(land1_tab, aes(x, y, fill = plant)) +
       geom_raster() +
-      theme_minimal(16) +
+      theme_minimal(12) +
       scale_fill_viridis_d(option = "inferno") +
       labs(fill = "Plant sp.", x = NULL, y = NULL) +
       coord_fixed()
