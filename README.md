@@ -1,6 +1,6 @@
 <!-- badges: start -->
 
-[![R-CMD-check](https://github.com/sponslerdb/floralcurves/workflows/R-CMD-check/badge.svg)](https://github.com/sponslerdb/floralcurves/actions)
+[![R-CMD-check](https://github.com/sponslerdb/sweetworld/workflows/R-CMD-check/badge.svg)](https://github.com/sponslerdb/sweetworld/actions)
 <!-- badges: end -->
 
 ## Overview
@@ -10,8 +10,8 @@ Together, flowering plants and flower-visiting animals account for about
 trophic interface between flowers and florivores is, therefore, one of
 the chief foundations of global biodiversity, and patterns of floral
 resource availability can be expected to govern abundance, diversity,
-and functional relationships at higher trophic levels. **floralcurves**
-is a sandbox for exploring landscape-scale patterns of floral resource
+and functional relationships at higher trophic levels. **sweetworld** is
+a sandbox for exploring landscape-scale patterns of floral resource
 availability arising from simulated floral communities.
 
 <!-- ![Alt text](https://github.com/sponslerdb/floralcurves/blob/main/inst/extdata/model_schematic.png?raw=true "Title") -->
@@ -204,7 +204,7 @@ representing the habitat classes of the initial raster.
 
     land1_tally_plant <- landtally(land1_pheno, criterion = plant)
 
-    land1_tally_morph <- landtally(land1_pheno, criterion = flower.shape)
+    land1_tally_morph <- landtally(land1_pheno, criterion = flower.shape) 
 
 With these tallied data, we can visualize variation in resource
 availability using line or area plots.
@@ -213,7 +213,7 @@ availability using line or area plots.
       geom_line() +
       theme_minimal(18) +
       scale_x_date(date_labels = "%b") +
-      labs(x = NULL, y = "Total sugar (g)", title = "Aggregate")
+      labs(x = NULL, y = "Sugar (g)", title = "Aggregate")
 
 ![](README_files/figure-markdown_strict/unnamed-chunk-8-1.png)
 
@@ -222,7 +222,7 @@ availability using line or area plots.
       theme_minimal(18) +
       scale_x_date(date_labels = "%b") +
       labs(x = NULL, y = "Total sugar (g)", color = "Habitat class",
-           title = "By habitat class")
+           title = "By habitat class") 
 
 ![](README_files/figure-markdown_strict/unnamed-chunk-8-2.png)
 
@@ -240,7 +240,7 @@ availability using line or area plots.
       theme_minimal(18) +
       scale_x_date(date_labels = "%b") +
       labs(x = NULL, y = "Total sugar (g)", color = "Floral morphotype",
-           title = "By flower shape")
+           title = "By flower shape") 
 
 ![](README_files/figure-markdown_strict/unnamed-chunk-8-4.png)
 
@@ -250,7 +250,7 @@ availability using line or area plots.
       scale_x_date(date_labels = "%b") +
       scale_fill_viridis_d(option = "inferno", direction = 1) +
       labs(x = NULL, y = "Total sugar (g)", fill = "Plant sp.",
-           title = "By plant species")
+           title = "By plant species") 
 
 ![](README_files/figure-markdown_strict/unnamed-chunk-8-5.png)
 
