@@ -16,7 +16,7 @@
    id="svg8"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)"
    sodipodi:docname="hex_sticker1.svg"
-   inkscape:export-filename="/home/dos86jn/floralcurves/inst/extdata/hex_sticker1_baseplot.png"
+   inkscape:export-filename="/home/dos86jn/sweetworld/inst/extdata/hex_sticker1_baseplot.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300">
   <defs
@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="263.37642"
-     inkscape:cy="706.37919"
+     inkscape:cx="79.528656"
+     inkscape:cy="702.33858"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -222,8 +222,8 @@
       </g>
     </g>
     <path
-       style="fill:none;stroke:#000000;stroke-width:1.05683637;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 58.576151,127.81987 c 12.072845,0.0398 19.944938,-30.893577 31.488031,-37.796194 3.520843,-1.21951 6.878192,2.888095 9.304562,2.591472 10.554656,-4.57682 7.494666,-25.596801 18.922966,-24.83304 10.35599,0.692097 13.62727,57.027302 48.48268,61.174492"
+       style="fill:none;stroke:#000000;stroke-width:0.86023504;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 58.576151,107.55329 c 12.072845,0.0264 19.944938,-20.468545 31.488031,-25.041876 3.520843,-0.807986 6.878192,1.913508 9.304562,1.716981 10.554656,-3.032373 7.494666,-16.959165 18.922966,-16.453135 10.35599,0.458549 12.82546,36.17983 47.68087,38.92755"
        id="path1249"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccsc" />

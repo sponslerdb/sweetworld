@@ -1,0 +1,155 @@
+---
+title: "experiment"
+output: html_document
+---
+
+```{r}
+library(sweetworld)
+
+# For visualizations
+library(tidyverse)
+library(lubridate)
+library(patchwork)
+Sys.setlocale(locale = "en_US.UTF-8")
+```
+
+# Simulate landscapes
+```{r}
+land1 <- landgen(area = 10000, 
+                 prop1 = 0.1, 
+                 prop2 = 0.5, 
+                 n1 = 10, 
+                 n2 = 10) 
+
+land2 <- landgen(area = 10000, 
+                 prop1 = 0.1, 
+                 prop2 = 0.8, 
+                 n1 = 10, 
+                 n2 = 10) 
+```
+
+# Add plants
+```{r}
+land1_tab <- landtab(land1, 
+                     comp0 = c("Cirsium vulgare", "Trifolium repens", "Taraxacum agg."),
+                     comp2 = c("Brassica napus"),
+                     comp1 = c("Acer pseudoplatanus", "Crataegus monogyna", "Sorbus aucuparia"),
+                     prob0 = c(0.2, 0.5, 0.3),
+                     prob2 = c(1),
+                     prob1 = c(0.8, 0.1, 0.1),
+                     traitTab = baude_traits,
+                     plantNames = "name.latin")
+
+land2_tab <- landtab(land2, 
+                     comp0 = c("Cirsium vulgare", "Trifolium repens", "Taraxacum agg."),
+                     comp2 = c("Brassica napus"),
+                     comp1 = c("Acer pseudoplatanus", "Crataegus monogyna", "Sorbus aucuparia"),
+                     prob0 = c(0.2, 0.5, 0.3),
+                     prob2 = c(1),
+                     prob1 = c(0.8, 0.1, 0.1),
+                     traitTab = baude_traits,
+                     plantNames = "name.latin")
+```
+
+```{r}
+# Classes
+plot1a <- ggplot(land1_tab, aes(x, y, fill = class)) +
+  geom_raster() +
+  theme_minimal(10) +
+  scale_fill_viridis_d() +
+  labs(fill = "Patch class", x = NULL, y = NULL) +
+  coord_fixed()
+
+# Plants
+plot1b <- ggplot(land1_tab, aes(x, y, fill = plant)) +
+  geom_raster() +
+  theme_minimal(10) +
+  scale_fill_viridis_d(option = "inferno") +
+  labs(fill = "Plant sp.", x = NULL, y = NULL) +
+  coord_fixed()
+
+plot2a <- ggplot(land2_tab, aes(x, y, fill = class)) +
+  geom_raster() +
+  theme_minimal(10) +
+  scale_fill_viridis_d() +
+  labs(fill = "Patch class", x = NULL, y = NULL) +
+  coord_fixed()
+
+# Plants
+plot2b <- ggplot(land2_tab, aes(x, y, fill = plant)) +
+  geom_raster() +
+  theme_minimal(10) +
+  scale_fill_viridis_d(option = "inferno") +
+  labs(fill = "Plant sp.", x = NULL, y = NULL) +
+  coord_fixed()
+
+
+(plot1a / plot1b) | (plot2a / plot2b)
+```
+
+```{r}
+land1_pheno <- landpheno(land1_tab, first = 0, last = 364) 
+land2_pheno <- landpheno(land2_tab, first = 0, last = 364) 
+```
+      
+```{r}
+land1_tally_agg <- landtally(land1_pheno) %>%
+  mutate(trt = "50% OSR")
+
+land1_tally_class <- landtally(land1_pheno, criterion = class) %>%
+  mutate(trt = "50% OSR")
+
+land1_tally_plant <- landtally(land1_pheno, criterion = plant) %>%
+  mutate(trt = "50% OSR")
+
+land1_tally_morph <- landtally(land1_pheno, criterion = flower.shape)  %>%
+  mutate(trt = "50% OSR")
+
+
+land2_tally_agg <- landtally(land2_pheno) %>%
+  mutate(trt = "80% OSR")
+
+land2_tally_class <- landtally(land2_pheno, criterion = class) %>%
+  mutate(trt = "80% OSR")
+
+land2_tally_plant <- landtally(land2_pheno, criterion = plant) %>%
+  mutate(trt = "80% OSR")
+
+land2_tally_morph <- landtally(land2_pheno, criterion = flower.shape)  %>%
+  mutate(trt = "80% OSR")
+
+tally_agg <- bind_rows(land1_tally_agg, land2_tally_agg)
+tally_class <- bind_rows(land1_tally_class, land2_tally_class)
+tally_plant <- bind_rows(land1_tally_plant, land2_tally_plant)
+tally_morph <- bind_rows(land1_tally_morph, land2_tally_morph)
+
+```
+
+```{r}
+ggplot(tally_agg, aes(date, total.sugar, linetype = trt)) +
+  geom_line() +
+  theme_minimal(16) +
+  scale_x_date(date_labels = "%b") +
+  labs(x = NULL, y = "Sugar (g)", title = "Aggregate")
+
+ggplot(tally_class, aes(date, total.sugar, color = class, linetype = trt)) +
+  geom_line() +
+  theme_minimal(16) +
+  scale_x_date(date_labels = "%b") +
+  labs(x = NULL, y = "Total sugar (g)", color = "Habitat class",
+       title = "By habitat class") 
+
+ggplot(tally_plant, aes(date, total.sugar, color = plant, linetype = trt)) +
+  geom_line() +
+  theme_minimal(16) +
+  scale_x_date(date_labels = "%b") +
+  labs(x = NULL, y = "Total sugar (g)", color = "Plant sp.",
+       title = "By plant species")
+
+ggplot(tally_morph, aes(date, total.sugar, color = flower.shape, linetype = trt)) +
+  geom_line() +
+  theme_minimal(16) +
+  scale_x_date(date_labels = "%b") +
+  labs(x = NULL, y = "Total sugar (g)", color = "Floral morphotype",
+       title = "By flower shape") 
+```

@@ -1,5 +1,5 @@
 ## code to prepare `DATASET` dataset goes here
-baude_traits <- readr::read_csv("./inst/extdata/baude_ST11.csv") %>%
+baude_supp <- readr::read_csv("./inst/extdata/baude_ST11.csv") %>%
   dplyr::mutate(bloom.start = lubridate::yday(lubridate::mdy(bloom.start)),
                 bloom.end = lubridate::yday(lubridate::mdy(bloom.end)),
                 bloom.peak = lubridate::yday(lubridate::mdy(bloom.peak))) %>%
@@ -13,4 +13,11 @@ baude_traits <- readr::read_csv("./inst/extdata/baude_ST11.csv") %>%
                   height = "null", bloom.start = 1, bloom.end = 365, bloom.peak = 180,
                   bloom.days = 365, flower.density.peak = 0, sugar.per.flower = 0)
 
+ktype <- readr::read_csv("./inst/extdata/baude_ktypes.csv")
+
+baude_traits <- dplyr::left_join(baude_supp, ktype) %>%
+  dplyr::mutate(k.type.s = stringr::str_extract(ktype, "[-+]?[0-9]*\\.?[0-9]+"), # make simplified (and more simplified) k types
+         k.type.ss = stringr::str_extract(ktype, "[-+]?[0-9]*"))
+
 usethis::use_data(baude_traits, overwrite = TRUE)
+
